@@ -1,0 +1,21 @@
+{
+  "overload": true,
+  "copper_oz": 1,
+  "nets": {
+    "input": [
+      "VIN"
+    ],
+    "output": [
+      "VOUT",
+      "VOUT_C"
+    ],
+    "gnd": [
+      "GND"
+    ],
+    "sw": [
+      "SW"
+    ]
+  },
+  "ignore": [],
+  "waivers": []
+}

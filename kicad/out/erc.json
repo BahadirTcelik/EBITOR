@@ -1,0 +1,128 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-16T19:16:41",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.8",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/bbb7aa1b-422e-5d63-bfbe-54e97c955a17",
+            "violations": [
+                {
+                    "description": "'BSC040N10NS5' sembolü 'Transistor_FET' kütüphanesindeki kopyayla eşleşmiyor",
+                    "items": [
+                        {
+                            "description": "SembollerQ3 [BSC040N10NS5]",
+                            "pos": {
+                                "x": 76.2,
+                                "y": 43.18
+                            },
+                            "uuid": "a7848733-cde0-59a5-9189-2fe28597b22e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "'BSC070N10NS5' sembolü 'Transistor_FET' kütüphanesindeki kopyayla eşleşmiyor",
+                    "items": [
+                        {
+                            "description": "SembollerQ1 [BSC070N10NS5]",
+                            "pos": {
+                                "x": 125.73,
+                                "y": 43.18
+                            },
+                            "uuid": "218d1bbf-c230-5d25-9300-ec2d06c23c5e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "'MCP6001-OT' sembolü 'Amplifier_Operational' kütüphanesindeki kopyayla eşleşmiyor",
+                    "items": [
+                        {
+                            "description": "SembollerU3 [MCP6001-OT]",
+                            "pos": {
+                                "x": 129.54,
+                                "y": 158.75
+                            },
+                            "uuid": "88c8dc22-217d-515a-9972-76b3aa46dded"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "'BSC040N10NS5' sembolü 'Transistor_FET' kütüphanesindeki kopyayla eşleşmiyor",
+                    "items": [
+                        {
+                            "description": "SembollerQ2 [BSC040N10NS5]",
+                            "pos": {
+                                "x": 171.45,
+                                "y": 43.18
+                            },
+                            "uuid": "513e01f0-3c38-52fd-8093-496d8acf9588"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "'TL431DBZ' sembolü 'Reference_Voltage' kütüphanesindeki kopyayla eşleşmiyor",
+                    "items": [
+                        {
+                            "description": "SembollerU4 [TL431DBZ]",
+                            "pos": {
+                                "x": 172.72,
+                                "y": 156.21
+                            },
+                            "uuid": "34b4793d-b729-5b11-8f9e-212488e3294b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "'R_Potentiometer' sembolü 'Device' kütüphanesindeki kopyayla eşleşmiyor",
+                    "items": [
+                        {
+                            "description": "SembollerRV1 [R_Potentiometer]",
+                            "pos": {
+                                "x": 213.36,
+                                "y": 156.21
+                            },
+                            "uuid": "1b21ac10-1ee3-5460-9d13-b30fd7bfdf96"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                }
+            ]
+        }
+    ],
+    "source": "ee463_dcdc.kicad_sch"
+}

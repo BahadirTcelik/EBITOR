@@ -1,0 +1,5317 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-16T20:31:04",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.8",
+    "schematic_parity": [
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi C1",
+                    "pos": {
+                        "x": 72.5,
+                        "y": 44.4
+                    },
+                    "uuid": "91d608b6-98ec-4745-93f8-716cef7c959a"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi C2",
+                    "pos": {
+                        "x": 98.5,
+                        "y": 57.9
+                    },
+                    "uuid": "2136fb37-3bc4-4181-905d-cee7b43d33d5"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi C3",
+                    "pos": {
+                        "x": 98.5,
+                        "y": 54.6
+                    },
+                    "uuid": "624ed1b0-b8e5-462c-bb1c-6e728ddfbc69"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi C4",
+                    "pos": {
+                        "x": 89.0,
+                        "y": 67.6
+                    },
+                    "uuid": "fbd1bd2c-d79a-48da-bfb2-3de84ee284ca"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi C5",
+                    "pos": {
+                        "x": 85.5,
+                        "y": 67.6
+                    },
+                    "uuid": "59b338dc-accc-403b-88aa-b5288f041d1d"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi C6",
+                    "pos": {
+                        "x": 82.0,
+                        "y": 67.6
+                    },
+                    "uuid": "73706483-e031-4ec1-b799-55583757dc16"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi C7",
+                    "pos": {
+                        "x": 78.5,
+                        "y": 67.6
+                    },
+                    "uuid": "7b6554fa-fbdf-4559-b410-6a82245fe133"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi C8",
+                    "pos": {
+                        "x": 65.5,
+                        "y": 64.5
+                    },
+                    "uuid": "afa6740b-ce8a-46ec-bbc1-b5fe81c01c27"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi C9",
+                    "pos": {
+                        "x": 141.7,
+                        "y": 61.5
+                    },
+                    "uuid": "ba0ee194-3d1a-4a7c-b9f6-d758b7c8c813"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi C10",
+                    "pos": {
+                        "x": 141.7,
+                        "y": 64.8
+                    },
+                    "uuid": "d2d06f64-8ba2-4eab-993e-f6c2ef0f8470"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi C11",
+                    "pos": {
+                        "x": 141.7,
+                        "y": 68.1
+                    },
+                    "uuid": "bd9e0200-a2cd-4484-aac5-82f96c6533ae"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi C12",
+                    "pos": {
+                        "x": 141.7,
+                        "y": 71.4
+                    },
+                    "uuid": "7052edac-8564-4634-987a-6943b1abdaa7"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi C13",
+                    "pos": {
+                        "x": 141.1,
+                        "y": 77.5
+                    },
+                    "uuid": "619c05cb-6f59-4add-823d-f02fe568ca27"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi C14",
+                    "pos": {
+                        "x": 130.0,
+                        "y": 83.2
+                    },
+                    "uuid": "08ecf8f4-5b9c-424b-9180-7f2fd40c8446"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izi nitelikleri sembolle eşleşmiyor: 'Yerleştirmeyin' ayarları farklı",
+            "items": [
+                {
+                    "description": "Ayak İzi C15",
+                    "pos": {
+                        "x": 107.0,
+                        "y": 59.0
+                    },
+                    "uuid": "e8c1be79-ca19-485f-8be1-822deb709468"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi C15",
+                    "pos": {
+                        "x": 107.0,
+                        "y": 59.0
+                    },
+                    "uuid": "e8c1be79-ca19-485f-8be1-822deb709468"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi C16",
+                    "pos": {
+                        "x": 88.6,
+                        "y": 72.6
+                    },
+                    "uuid": "45872d34-56ca-4ddf-9145-064f0f011768"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi C17",
+                    "pos": {
+                        "x": 87.8,
+                        "y": 84.7
+                    },
+                    "uuid": "fbf0758d-d654-4fe7-bb98-0ebb2dd3cc3e"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izi nitelikleri sembolle eşleşmiyor: 'Yerleştirmeyin' ayarları farklı",
+            "items": [
+                {
+                    "description": "Ayak İzi C18",
+                    "pos": {
+                        "x": 95.0,
+                        "y": 88.9
+                    },
+                    "uuid": "92c8bbeb-f4d5-4980-adf0-935c757044da"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi C18",
+                    "pos": {
+                        "x": 95.0,
+                        "y": 88.9
+                    },
+                    "uuid": "92c8bbeb-f4d5-4980-adf0-935c757044da"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi C19",
+                    "pos": {
+                        "x": 102.2,
+                        "y": 88.9
+                    },
+                    "uuid": "a3cac9fe-375b-4a89-a982-8699e5b5c6fb"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi C20",
+                    "pos": {
+                        "x": 99.8,
+                        "y": 84.7
+                    },
+                    "uuid": "2b953246-4b3f-4dfb-9f7f-b2082e377ffb"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi C21",
+                    "pos": {
+                        "x": 92.6,
+                        "y": 84.7
+                    },
+                    "uuid": "7dd3ad8f-1995-4364-ac61-d66b699a5297"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi C22",
+                    "pos": {
+                        "x": 103.0,
+                        "y": 72.6
+                    },
+                    "uuid": "bb9446f7-8355-431d-adc6-f1bf81bc5176"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi C23",
+                    "pos": {
+                        "x": 87.6,
+                        "y": 78.7
+                    },
+                    "uuid": "9c4c087f-b641-448c-97d1-aacc4bd24ec5"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi C24",
+                    "pos": {
+                        "x": 98.2,
+                        "y": 72.6
+                    },
+                    "uuid": "d9b898c8-97d1-4fa0-9cd6-f7ffd3d56346"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi C25",
+                    "pos": {
+                        "x": 91.0,
+                        "y": 72.6
+                    },
+                    "uuid": "93393923-74f1-47d0-b8aa-36bd72f12046"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi C26",
+                    "pos": {
+                        "x": 95.8,
+                        "y": 72.6
+                    },
+                    "uuid": "5dd8d968-e8c6-46a1-becb-6d7d2470ff27"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi C27",
+                    "pos": {
+                        "x": 93.4,
+                        "y": 72.6
+                    },
+                    "uuid": "66c930b4-f203-476a-b487-043a1afdb1f0"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi C28",
+                    "pos": {
+                        "x": 130.3,
+                        "y": 93.6
+                    },
+                    "uuid": "ab474b79-6bb3-4580-9daf-bb6f8e32b613"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi C29",
+                    "pos": {
+                        "x": 124.6,
+                        "y": 90.9
+                    },
+                    "uuid": "65cd55e3-4194-4e65-bbe7-ce5868113e66"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi C30",
+                    "pos": {
+                        "x": 120.5,
+                        "y": 89.0
+                    },
+                    "uuid": "f718e30a-6601-4202-9b4c-0dfa2cb70193"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi C31",
+                    "pos": {
+                        "x": 116.6,
+                        "y": 93.45
+                    },
+                    "uuid": "4a310e8a-1d48-470a-8efb-7f5f32058957"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi C32",
+                    "pos": {
+                        "x": 124.0,
+                        "y": 98.6
+                    },
+                    "uuid": "11ad1f4c-e482-40cb-a2d3-121b62ccfe87"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi C33",
+                    "pos": {
+                        "x": 128.0,
+                        "y": 104.6
+                    },
+                    "uuid": "f064d56d-569f-4692-b4f6-0dd2e5425c70"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi D1",
+                    "pos": {
+                        "x": 112.0,
+                        "y": 88.9
+                    },
+                    "uuid": "02531c87-017d-4007-8864-655aaee75ef3"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi D2",
+                    "pos": {
+                        "x": 120.5,
+                        "y": 86.4
+                    },
+                    "uuid": "ed59c0d2-b1f0-467b-bc90-d8b02d87247e"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi D3",
+                    "pos": {
+                        "x": 73.0,
+                        "y": 47.4
+                    },
+                    "uuid": "e7e14a83-b349-4459-a42e-7c68b94afb15"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi H1",
+                    "pos": {
+                        "x": 54.5,
+                        "y": 44.5
+                    },
+                    "uuid": "6a68e275-3b8d-40b8-a60c-2b91e1656739"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi H2",
+                    "pos": {
+                        "x": 145.5,
+                        "y": 44.5
+                    },
+                    "uuid": "44011fbc-fecd-46d3-819d-3660e88e4490"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi H3",
+                    "pos": {
+                        "x": 54.5,
+                        "y": 105.5
+                    },
+                    "uuid": "ec913d11-3077-4c06-a99d-568761d7b9c1"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi H4",
+                    "pos": {
+                        "x": 145.5,
+                        "y": 105.5
+                    },
+                    "uuid": "3c08589d-172f-40f4-8fc1-47a5b4dcbfac"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi J1",
+                    "pos": {
+                        "x": 56.0,
+                        "y": 57.0
+                    },
+                    "uuid": "f5003307-83c2-43a4-955d-23eb1ff653a0"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi J2",
+                    "pos": {
+                        "x": 143.0,
+                        "y": 93.0
+                    },
+                    "uuid": "ef19233f-a219-4195-9f1f-17ca04563b1a"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi L1",
+                    "pos": {
+                        "x": 119.5,
+                        "y": 68.2
+                    },
+                    "uuid": "a5c5116c-801c-4d2f-afb2-ec6820699a59"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi Q1",
+                    "pos": {
+                        "x": 94.5,
+                        "y": 64.0
+                    },
+                    "uuid": "b9ce0a45-c131-4189-88a8-f918178743cb"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi Q2",
+                    "pos": {
+                        "x": 102.5,
+                        "y": 64.0
+                    },
+                    "uuid": "666f0596-cf26-427b-af63-44bfc4355b30"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi Q3",
+                    "pos": {
+                        "x": 66.0,
+                        "y": 46.3
+                    },
+                    "uuid": "e0e57f14-8f74-43d0-b3a9-759e3834ddaf"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi R1",
+                    "pos": {
+                        "x": 78.0,
+                        "y": 48.3
+                    },
+                    "uuid": "7aced22f-27cd-4133-9992-3feee4567f7e"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izi nitelikleri sembolle eşleşmiyor: 'Yerleştirmeyin' ayarları farklı",
+            "items": [
+                {
+                    "description": "Ayak İzi R2",
+                    "pos": {
+                        "x": 63.5,
+                        "y": 54.3
+                    },
+                    "uuid": "e38e5d74-0b18-405c-a749-a21a1b550cb8"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi R2",
+                    "pos": {
+                        "x": 63.5,
+                        "y": 54.3
+                    },
+                    "uuid": "e38e5d74-0b18-405c-a749-a21a1b550cb8"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izi nitelikleri sembolle eşleşmiyor: 'Yerleştirmeyin' ayarları farklı",
+            "items": [
+                {
+                    "description": "Ayak İzi R3",
+                    "pos": {
+                        "x": 67.6,
+                        "y": 54.3
+                    },
+                    "uuid": "391f4de2-6df3-41b1-b987-676ed249e495"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi R3",
+                    "pos": {
+                        "x": 67.6,
+                        "y": 54.3
+                    },
+                    "uuid": "391f4de2-6df3-41b1-b987-676ed249e495"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi R4",
+                    "pos": {
+                        "x": 65.5,
+                        "y": 76.2
+                    },
+                    "uuid": "e1cff488-5209-4a96-b4e6-2acae884d17b"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi R5",
+                    "pos": {
+                        "x": 105.4,
+                        "y": 72.6
+                    },
+                    "uuid": "0d3b81f4-1050-463a-aad6-f50971a0fe74"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi R6",
+                    "pos": {
+                        "x": 100.6,
+                        "y": 72.6
+                    },
+                    "uuid": "bd7b1a23-f0cd-4f9f-a019-e94b42141230"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izi nitelikleri sembolle eşleşmiyor: 'Yerleştirmeyin' ayarları farklı",
+            "items": [
+                {
+                    "description": "Ayak İzi R7",
+                    "pos": {
+                        "x": 107.0,
+                        "y": 63.3
+                    },
+                    "uuid": "5284f2c7-1229-409b-a386-49e9389401af"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi R7",
+                    "pos": {
+                        "x": 107.0,
+                        "y": 63.3
+                    },
+                    "uuid": "5284f2c7-1229-409b-a386-49e9389401af"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi R8",
+                    "pos": {
+                        "x": 102.2,
+                        "y": 84.7
+                    },
+                    "uuid": "f9c55890-f990-4df5-90e4-bfc5b0e23b8b"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi R9",
+                    "pos": {
+                        "x": 75.8,
+                        "y": 70.3
+                    },
+                    "uuid": "5cf5597b-4d14-4186-800f-c80761335ab7"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi R10",
+                    "pos": {
+                        "x": 90.2,
+                        "y": 78.7
+                    },
+                    "uuid": "cb6d7ed1-d33d-4f20-a123-7774680b224e"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi R11",
+                    "pos": {
+                        "x": 90.2,
+                        "y": 84.7
+                    },
+                    "uuid": "7b184995-38d7-42ab-9195-3fb62649f47c"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi R12",
+                    "pos": {
+                        "x": 87.8,
+                        "y": 88.9
+                    },
+                    "uuid": "fa4ba571-11e0-47c4-9aad-e6d98acb2280"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi R13",
+                    "pos": {
+                        "x": 97.4,
+                        "y": 84.7
+                    },
+                    "uuid": "73dd8ae2-4414-456c-b893-72d8830cb859"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi R14",
+                    "pos": {
+                        "x": 95.0,
+                        "y": 84.7
+                    },
+                    "uuid": "2fc0586e-706e-4f44-8108-ba60d65cc204"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi R15",
+                    "pos": {
+                        "x": 97.4,
+                        "y": 88.9
+                    },
+                    "uuid": "aa3e3031-1fe5-48c8-8565-1b6cebf97a5f"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi R16",
+                    "pos": {
+                        "x": 99.8,
+                        "y": 88.9
+                    },
+                    "uuid": "a3ca542b-8522-488b-ac4a-8f25484d2bae"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi R17",
+                    "pos": {
+                        "x": 107.0,
+                        "y": 84.7
+                    },
+                    "uuid": "69542845-0b89-4753-9458-456f54261c5f"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izi nitelikleri sembolle eşleşmiyor: 'Yerleştirmeyin' ayarları farklı",
+            "items": [
+                {
+                    "description": "Ayak İzi R18",
+                    "pos": {
+                        "x": 92.6,
+                        "y": 88.9
+                    },
+                    "uuid": "0a526c46-0a4b-4d66-9b9b-1fa8ce26de48"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi R18",
+                    "pos": {
+                        "x": 92.6,
+                        "y": 88.9
+                    },
+                    "uuid": "0a526c46-0a4b-4d66-9b9b-1fa8ce26de48"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi R19",
+                    "pos": {
+                        "x": 104.6,
+                        "y": 84.7
+                    },
+                    "uuid": "e53a0837-f54d-4a1f-9765-2f295cf736a1"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi R20",
+                    "pos": {
+                        "x": 90.2,
+                        "y": 88.9
+                    },
+                    "uuid": "118b2c24-b4c8-4029-98cf-613c20f1d88f"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi R21",
+                    "pos": {
+                        "x": 73.4,
+                        "y": 70.3
+                    },
+                    "uuid": "096be290-5b4f-4427-9549-9355828d4c30"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi R22",
+                    "pos": {
+                        "x": 83.8,
+                        "y": 72.6
+                    },
+                    "uuid": "c12ce016-da29-4b73-a03c-dd2a1fc19baa"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi R23",
+                    "pos": {
+                        "x": 125.0,
+                        "y": 93.45
+                    },
+                    "uuid": "028c042d-a312-408e-aac5-e03eb20522e9"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi R24",
+                    "pos": {
+                        "x": 107.0,
+                        "y": 88.9
+                    },
+                    "uuid": "c357e878-3c26-48ae-a753-3d006116f54c"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi R25",
+                    "pos": {
+                        "x": 104.6,
+                        "y": 88.9
+                    },
+                    "uuid": "d8e44d98-a2fa-469c-918c-efbd3c1864b6"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi R26",
+                    "pos": {
+                        "x": 119.2,
+                        "y": 96.8
+                    },
+                    "uuid": "de4e5b78-b93f-4bc1-9315-85c21901b7cc"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi R27",
+                    "pos": {
+                        "x": 112.8,
+                        "y": 96.8
+                    },
+                    "uuid": "e8e3e746-6f00-45cd-abf6-09c1442729b1"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi R28",
+                    "pos": {
+                        "x": 105.3,
+                        "y": 100.5
+                    },
+                    "uuid": "2968a264-fe55-46c8-969c-1356e8100654"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi R29",
+                    "pos": {
+                        "x": 124.0,
+                        "y": 102.8
+                    },
+                    "uuid": "4a5ad031-46f9-4c78-b5c2-ac11fe41e7f1"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi RS1",
+                    "pos": {
+                        "x": 133.5,
+                        "y": 68.2
+                    },
+                    "uuid": "dcfe0ef5-3f3d-4c3d-aac0-dfaf602f22ea"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi RSH1",
+                    "pos": {
+                        "x": 136.5,
+                        "y": 90.0
+                    },
+                    "uuid": "f706f9fb-e70a-4cd7-b5cd-4edb3e01854d"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi RV1",
+                    "pos": {
+                        "x": 114.5,
+                        "y": 102.6
+                    },
+                    "uuid": "1b882938-816d-4d1e-9eed-6d0ed4944bb6"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi TP1",
+                    "pos": {
+                        "x": 86.0,
+                        "y": 46.0
+                    },
+                    "uuid": "607fc88c-bf39-4b3a-8ebf-0ba6b32925fe"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi TP2",
+                    "pos": {
+                        "x": 60.6,
+                        "y": 46.0
+                    },
+                    "uuid": "4cab9b56-6193-4e14-954d-a095ca717934"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi TP3",
+                    "pos": {
+                        "x": 112.0,
+                        "y": 48.0
+                    },
+                    "uuid": "f44fb4b5-bfe3-4557-b99c-db08e1d756e3"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi TP4",
+                    "pos": {
+                        "x": 62.0,
+                        "y": 105.5
+                    },
+                    "uuid": "e81f227d-3289-4ea0-8a2c-df50df08317d"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi TP5",
+                    "pos": {
+                        "x": 138.0,
+                        "y": 105.5
+                    },
+                    "uuid": "473fea09-be14-4eef-977c-28215c13a1ef"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi TP6",
+                    "pos": {
+                        "x": 136.0,
+                        "y": 98.0
+                    },
+                    "uuid": "d7c59f9b-8c56-4280-99cc-d2902d657e1e"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi TP7",
+                    "pos": {
+                        "x": 138.6,
+                        "y": 83.95
+                    },
+                    "uuid": "f7eb643c-8edc-4717-b9c8-1fd3960f79ad"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi TP8",
+                    "pos": {
+                        "x": 107.3,
+                        "y": 68.1
+                    },
+                    "uuid": "4ab03743-c0ad-4628-83a7-b41adfb9109f"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi TP9",
+                    "pos": {
+                        "x": 111.5,
+                        "y": 81.2
+                    },
+                    "uuid": "d616a3b3-3df7-4017-8430-16b966d02bb9"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi TP10",
+                    "pos": {
+                        "x": 115.8,
+                        "y": 81.2
+                    },
+                    "uuid": "627c097a-e1bf-40a2-829a-a3008aa97b98"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi TP11",
+                    "pos": {
+                        "x": 66.5,
+                        "y": 105.5
+                    },
+                    "uuid": "bc73e8a5-c95a-4b01-99ec-82ad7c5735e8"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi TP12",
+                    "pos": {
+                        "x": 71.0,
+                        "y": 105.5
+                    },
+                    "uuid": "a8a5dae6-3115-4c9a-bb1f-5e35cdae6c81"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi TP13",
+                    "pos": {
+                        "x": 75.5,
+                        "y": 105.5
+                    },
+                    "uuid": "604e5256-c716-4810-a76c-025ac5db42cf"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi TP14",
+                    "pos": {
+                        "x": 93.5,
+                        "y": 105.5
+                    },
+                    "uuid": "5b8318b6-a0ef-4d53-8ff4-c8c6efc3c6cf"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi TP15",
+                    "pos": {
+                        "x": 84.5,
+                        "y": 105.5
+                    },
+                    "uuid": "c595bb5c-9520-439e-9322-353af11c863f"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi TP16",
+                    "pos": {
+                        "x": 80.0,
+                        "y": 105.5
+                    },
+                    "uuid": "115fce37-d487-48f7-8a43-7eb7ad828b36"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi TP17",
+                    "pos": {
+                        "x": 89.0,
+                        "y": 105.5
+                    },
+                    "uuid": "a44cf650-91f2-4411-810c-18f334d5b03a"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi TP18",
+                    "pos": {
+                        "x": 132.6,
+                        "y": 102.6
+                    },
+                    "uuid": "205eafab-4f0c-4d40-bc59-216114314486"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi TP19",
+                    "pos": {
+                        "x": 102.5,
+                        "y": 105.5
+                    },
+                    "uuid": "296b4c51-ff62-47c9-bfab-006f3aa96be7"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi TP20",
+                    "pos": {
+                        "x": 98.0,
+                        "y": 105.5
+                    },
+                    "uuid": "a3292ba3-6ba8-4eac-97ff-2d29e22ac136"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi TP21",
+                    "pos": {
+                        "x": 121.5,
+                        "y": 105.5
+                    },
+                    "uuid": "6c542e4a-9419-448e-9aaa-f19fd7e99a99"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi U1",
+                    "pos": {
+                        "x": 97.0,
+                        "y": 78.7
+                    },
+                    "uuid": "e79bd9e1-d5ed-40f5-9760-aeffaaa322a9"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi U2",
+                    "pos": {
+                        "x": 130.3,
+                        "y": 90.5
+                    },
+                    "uuid": "b59afc99-20f6-4ded-b3f7-dda558c5e07a"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi U3",
+                    "pos": {
+                        "x": 120.5,
+                        "y": 92.5
+                    },
+                    "uuid": "21566e4a-5e7c-4f4b-907a-05e04b969419"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi U4",
+                    "pos": {
+                        "x": 116.0,
+                        "y": 96.8
+                    },
+                    "uuid": "4e5a39bc-0918-44a8-a805-5ba9c03257ac"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Ayak izinde eksik sembol alanı 'MPN'",
+            "items": [
+                {
+                    "description": "Ayak İzi U5",
+                    "pos": {
+                        "x": 128.0,
+                        "y": 100.0
+                    },
+                    "uuid": "3abfacee-cf3b-4a36-b363-13a9e43f9f48"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        }
+    ],
+    "source": "ee463_dcdc.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "1 için [RP_GATE] D3 ayak F.Cu",
+                    "pos": {
+                        "x": 71.35,
+                        "y": 47.4
+                    },
+                    "uuid": "ba694b49-b9fd-44de-980a-391becf91629"
+                },
+                {
+                    "description": "1 için [RP_GATE] C1 ayak F.Cu",
+                    "pos": {
+                        "x": 71.55,
+                        "y": 44.4
+                    },
+                    "uuid": "a9745c91-d955-4442-ab97-0844d8348b52"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "1 için [RP_GATE] D3 ayak F.Cu",
+                    "pos": {
+                        "x": 71.35,
+                        "y": 47.4
+                    },
+                    "uuid": "ba694b49-b9fd-44de-980a-391becf91629"
+                },
+                {
+                    "description": "2 için [RP_GATE] R1 ayak F.Cu",
+                    "pos": {
+                        "x": 78.0,
+                        "y": 47.3875
+                    },
+                    "uuid": "504dd03a-9f01-46a0-ab36-989c48c48d8b"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "1 için [RP_GATE] C1 ayak F.Cu",
+                    "pos": {
+                        "x": 71.55,
+                        "y": 44.4
+                    },
+                    "uuid": "a9745c91-d955-4442-ab97-0844d8348b52"
+                },
+                {
+                    "description": "4 için [RP_GATE] Q3 ayak F.Cu",
+                    "pos": {
+                        "x": 68.9,
+                        "y": 44.395
+                    },
+                    "uuid": "e4c94eaf-345f-4272-a012-54f1a0dd8692"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Bölge [GND] F.Cu üzerinde, öncelik 0",
+                    "pos": {
+                        "x": 50.7,
+                        "y": 43.0
+                    },
+                    "uuid": "4ee1595b-2b7f-4507-8ef6-3038e93ec5c8"
+                },
+                {
+                    "description": "36 için [GND] U1 ayak F.Cu",
+                    "pos": {
+                        "x": 93.5,
+                        "y": 75.925
+                    },
+                    "uuid": "7bc9bddd-056f-4039-a6eb-a8aecad43ce1"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "9 için [GND] U1 ayak F.Cu",
+                    "pos": {
+                        "x": 96.5,
+                        "y": 81.475
+                    },
+                    "uuid": "b3bc2f2b-66b3-497c-9d51-48871f7c423a"
+                },
+                {
+                    "description": "10 için [GND] U1 ayak F.Cu",
+                    "pos": {
+                        "x": 97.0,
+                        "y": 81.475
+                    },
+                    "uuid": "dba91ace-13cf-44f3-88b0-04faa43520f4"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Bölge [GND] F.Cu üzerinde, öncelik 0",
+                    "pos": {
+                        "x": 50.7,
+                        "y": 43.0
+                    },
+                    "uuid": "4ee1595b-2b7f-4507-8ef6-3038e93ec5c8"
+                },
+                {
+                    "description": "10 için [GND] U1 ayak F.Cu",
+                    "pos": {
+                        "x": 97.0,
+                        "y": 81.475
+                    },
+                    "uuid": "dba91ace-13cf-44f3-88b0-04faa43520f4"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "10 için [GND] U1 ayak F.Cu",
+                    "pos": {
+                        "x": 97.0,
+                        "y": 81.475
+                    },
+                    "uuid": "dba91ace-13cf-44f3-88b0-04faa43520f4"
+                },
+                {
+                    "description": "12 için [GND] U1 ayak F.Cu",
+                    "pos": {
+                        "x": 98.0,
+                        "y": 81.475
+                    },
+                    "uuid": "e1487e5d-613e-43d8-bb14-d85f5f34a7d6"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "12 için [GND] U1 ayak F.Cu",
+                    "pos": {
+                        "x": 98.0,
+                        "y": 81.475
+                    },
+                    "uuid": "e1487e5d-613e-43d8-bb14-d85f5f34a7d6"
+                },
+                {
+                    "description": "13 için [GND] U1 ayak F.Cu",
+                    "pos": {
+                        "x": 98.5,
+                        "y": 81.475
+                    },
+                    "uuid": "305d27e4-89c4-4ceb-9d04-77d263ecfc83"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "15 için [GND] U1 ayak F.Cu",
+                    "pos": {
+                        "x": 99.5,
+                        "y": 81.475
+                    },
+                    "uuid": "30083df1-1fac-4c3e-a32a-4ca466d13a78"
+                },
+                {
+                    "description": "13 için [GND] U1 ayak F.Cu",
+                    "pos": {
+                        "x": 98.5,
+                        "y": 81.475
+                    },
+                    "uuid": "305d27e4-89c4-4ceb-9d04-77d263ecfc83"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "1 için [CBULK_N] R4 ayak F.Cu",
+                    "pos": {
+                        "x": 62.5375,
+                        "y": 76.2
+                    },
+                    "uuid": "69cc1444-3afe-477d-b24b-63158d0e8848"
+                },
+                {
+                    "description": "2'in Delik İçi Kaplamalı Geçit pedi [CBULK_N] C8",
+                    "pos": {
+                        "x": 65.5,
+                        "y": 69.5
+                    },
+                    "uuid": "8ac1fbea-d35d-4cd9-82d8-fc2481262acc"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "1 için [VOUT_C] R22 ayak F.Cu",
+                    "pos": {
+                        "x": 83.8,
+                        "y": 73.5125
+                    },
+                    "uuid": "c55f80b4-ae18-449f-9cd4-140beb3e05f9"
+                },
+                {
+                    "description": "4 için [VOUT_C] U1 ayak F.Cu",
+                    "pos": {
+                        "x": 94.0,
+                        "y": 81.475
+                    },
+                    "uuid": "cd378950-5638-437e-99b5-6e5b8ae469cc"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "2 için [VOUT_C] C21 ayak F.Cu",
+                    "pos": {
+                        "x": 92.6,
+                        "y": 85.65
+                    },
+                    "uuid": "ef086897-03ac-4dbc-89f2-4dad876ce715"
+                },
+                {
+                    "description": "4 için [VOUT_C] U1 ayak F.Cu",
+                    "pos": {
+                        "x": 94.0,
+                        "y": 81.475
+                    },
+                    "uuid": "cd378950-5638-437e-99b5-6e5b8ae469cc"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "4 için [VOUT_C] U1 ayak F.Cu",
+                    "pos": {
+                        "x": 94.0,
+                        "y": 81.475
+                    },
+                    "uuid": "cd378950-5638-437e-99b5-6e5b8ae469cc"
+                },
+                {
+                    "description": "3 için [VOUT_C] U2 ayak F.Cu",
+                    "pos": {
+                        "x": 131.4375,
+                        "y": 89.55
+                    },
+                    "uuid": "4b115de1-17fc-4bc7-9854-52abf608c7b6"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "3 için [VOUT_C] U2 ayak F.Cu",
+                    "pos": {
+                        "x": 131.4375,
+                        "y": 89.55
+                    },
+                    "uuid": "4b115de1-17fc-4bc7-9854-52abf608c7b6"
+                },
+                {
+                    "description": "Bölge [VOUT_C] F.Cu üzerinde, öncelik 2",
+                    "pos": {
+                        "x": 134.6,
+                        "y": 59.0
+                    },
+                    "uuid": "5995d074-92dc-4bee-95d4-6f38d49cb25b"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "1 için [SNUB] C15 ayak F.Cu",
+                    "pos": {
+                        "x": 107.0,
+                        "y": 59.95
+                    },
+                    "uuid": "90446c3d-caa8-40c9-bbe7-581001096a1a"
+                },
+                {
+                    "description": "2 için [SNUB] R7 ayak F.Cu",
+                    "pos": {
+                        "x": 107.0,
+                        "y": 61.8375
+                    },
+                    "uuid": "0fec125d-6d5c-4a66-8642-51037c1a6c92"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "1 için [RUN] C16 ayak F.Cu",
+                    "pos": {
+                        "x": 88.6,
+                        "y": 73.55
+                    },
+                    "uuid": "c82eb70a-6af7-4f42-984a-b081c864605f"
+                },
+                {
+                    "description": "1 için [RUN] R10 ayak F.Cu",
+                    "pos": {
+                        "x": 90.2,
+                        "y": 77.7875
+                    },
+                    "uuid": "08d864af-1b47-4a26-aa6f-5665eb455195"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "1 için [RUN] C16 ayak F.Cu",
+                    "pos": {
+                        "x": 88.6,
+                        "y": 73.55
+                    },
+                    "uuid": "c82eb70a-6af7-4f42-984a-b081c864605f"
+                },
+                {
+                    "description": "2 için [RUN] R9 ayak F.Cu",
+                    "pos": {
+                        "x": 75.8,
+                        "y": 71.2125
+                    },
+                    "uuid": "c933d93e-af97-41c6-bef8-9d0591f09a20"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "1 için [RUN] R10 ayak F.Cu",
+                    "pos": {
+                        "x": 90.2,
+                        "y": 77.7875
+                    },
+                    "uuid": "08d864af-1b47-4a26-aa6f-5665eb455195"
+                },
+                {
+                    "description": "34 için [RUN] U1 ayak F.Cu",
+                    "pos": {
+                        "x": 94.5,
+                        "y": 75.925
+                    },
+                    "uuid": "6f54eb9f-f000-4594-ba7a-cf0ae2b18a79"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "1'in Delik İçi Kaplamalı Geçit pedi [SS] TP16",
+                    "pos": {
+                        "x": 80.0,
+                        "y": 105.5
+                    },
+                    "uuid": "0da81a2f-4be5-4fc1-96de-344bcb24f7f6"
+                },
+                {
+                    "description": "2 için [SS] R12 ayak F.Cu",
+                    "pos": {
+                        "x": 87.8,
+                        "y": 87.9875
+                    },
+                    "uuid": "6b7ec4fb-dfaf-45eb-9ea4-af50277e9692"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "1 için [SS] C17 ayak F.Cu",
+                    "pos": {
+                        "x": 87.8,
+                        "y": 83.75
+                    },
+                    "uuid": "3ec3534e-079f-4c94-a671-e972ae2736dd"
+                },
+                {
+                    "description": "2 için [SS] R12 ayak F.Cu",
+                    "pos": {
+                        "x": 87.8,
+                        "y": 87.9875
+                    },
+                    "uuid": "6b7ec4fb-dfaf-45eb-9ea4-af50277e9692"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "5 için [SS] U1 ayak F.Cu",
+                    "pos": {
+                        "x": 94.5,
+                        "y": 81.475
+                    },
+                    "uuid": "b7c38988-df83-455b-b955-d3e4fd6318ee"
+                },
+                {
+                    "description": "1 için [SS] C17 ayak F.Cu",
+                    "pos": {
+                        "x": 87.8,
+                        "y": 83.75
+                    },
+                    "uuid": "3ec3534e-079f-4c94-a671-e972ae2736dd"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "1 için [FB_TOP] C18 ayak F.Cu",
+                    "pos": {
+                        "x": 95.0,
+                        "y": 89.85
+                    },
+                    "uuid": "62d6d5ae-dd5e-454c-a3a4-d32919bec776"
+                },
+                {
+                    "description": "2 için [FB_TOP] R15 ayak F.Cu",
+                    "pos": {
+                        "x": 97.4,
+                        "y": 87.9875
+                    },
+                    "uuid": "12f46fef-7f35-419c-9d94-2eca945d2e15"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "1 için [FB_TOP] C18 ayak F.Cu",
+                    "pos": {
+                        "x": 95.0,
+                        "y": 89.85
+                    },
+                    "uuid": "62d6d5ae-dd5e-454c-a3a4-d32919bec776"
+                },
+                {
+                    "description": "1'in Delik İçi Kaplamalı Geçit pedi [FB_TOP] TP17",
+                    "pos": {
+                        "x": 89.0,
+                        "y": 105.5
+                    },
+                    "uuid": "50082230-1c20-4dc9-86e7-de4d477e30b5"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "2 için [FB_TOP] R15 ayak F.Cu",
+                    "pos": {
+                        "x": 97.4,
+                        "y": 87.9875
+                    },
+                    "uuid": "12f46fef-7f35-419c-9d94-2eca945d2e15"
+                },
+                {
+                    "description": "1 için [FB_TOP] R13 ayak F.Cu",
+                    "pos": {
+                        "x": 97.4,
+                        "y": 85.6125
+                    },
+                    "uuid": "7c13ab03-0510-465f-8efb-424e69a6cd7d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "6 için [VFB] U1 ayak F.Cu",
+                    "pos": {
+                        "x": 95.0,
+                        "y": 81.475
+                    },
+                    "uuid": "6fbda125-240d-40cb-9225-ce88bd64aaa9"
+                },
+                {
+                    "description": "1 için [VFB] R14 ayak F.Cu",
+                    "pos": {
+                        "x": 95.0,
+                        "y": 83.7875
+                    },
+                    "uuid": "0114f50a-0d8b-475a-9336-6169bba2ad11"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "1 için [VFB] R14 ayak F.Cu",
+                    "pos": {
+                        "x": 95.0,
+                        "y": 83.7875
+                    },
+                    "uuid": "0114f50a-0d8b-475a-9336-6169bba2ad11"
+                },
+                {
+                    "description": "2 için [VFB] R13 ayak F.Cu",
+                    "pos": {
+                        "x": 97.4,
+                        "y": 83.7875
+                    },
+                    "uuid": "36d933eb-60e3-4334-9f7e-fb95e3b247cd"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "1 için [VFB] R14 ayak F.Cu",
+                    "pos": {
+                        "x": 95.0,
+                        "y": 83.7875
+                    },
+                    "uuid": "0114f50a-0d8b-475a-9336-6169bba2ad11"
+                },
+                {
+                    "description": "2 için [VFB] C18 ayak F.Cu",
+                    "pos": {
+                        "x": 95.0,
+                        "y": 87.95
+                    },
+                    "uuid": "efa1f148-f33d-47c6-a376-c11cfc7259d8"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "2 için [ITH_RC] R16 ayak F.Cu",
+                    "pos": {
+                        "x": 99.8,
+                        "y": 89.8125
+                    },
+                    "uuid": "4fd8eca9-4657-4015-8c14-a71f42536956"
+                },
+                {
+                    "description": "1 için [ITH_RC] C19 ayak F.Cu",
+                    "pos": {
+                        "x": 102.2,
+                        "y": 89.85
+                    },
+                    "uuid": "5ca60941-e58f-48b3-b091-b7d90ed0c865"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "1'in Delik İçi Kaplamalı Geçit pedi [ITH] TP14",
+                    "pos": {
+                        "x": 93.5,
+                        "y": 105.5
+                    },
+                    "uuid": "c071347a-d265-4ff9-8cec-44897d1d3dc9"
+                },
+                {
+                    "description": "1 için [ITH] R16 ayak F.Cu",
+                    "pos": {
+                        "x": 99.8,
+                        "y": 87.9875
+                    },
+                    "uuid": "b90108b5-deea-44c3-af27-a95c7a5e20f1"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "1 için [ITH] C20 ayak F.Cu",
+                    "pos": {
+                        "x": 99.8,
+                        "y": 83.75
+                    },
+                    "uuid": "635b008a-4d3c-47b3-b3b4-26f37e30936d"
+                },
+                {
+                    "description": "1 için [ITH] R16 ayak F.Cu",
+                    "pos": {
+                        "x": 99.8,
+                        "y": 87.9875
+                    },
+                    "uuid": "b90108b5-deea-44c3-af27-a95c7a5e20f1"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "1 için [ITH] C20 ayak F.Cu",
+                    "pos": {
+                        "x": 99.8,
+                        "y": 83.75
+                    },
+                    "uuid": "635b008a-4d3c-47b3-b3b4-26f37e30936d"
+                },
+                {
+                    "description": "7 için [ITH] U1 ayak F.Cu",
+                    "pos": {
+                        "x": 95.5,
+                        "y": 81.475
+                    },
+                    "uuid": "82398f02-9eec-4d3a-b11d-412afa1076be"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "1 için [ITH] R16 ayak F.Cu",
+                    "pos": {
+                        "x": 99.8,
+                        "y": 87.9875
+                    },
+                    "uuid": "b90108b5-deea-44c3-af27-a95c7a5e20f1"
+                },
+                {
+                    "description": "1 için [ITH] R25 ayak F.Cu",
+                    "pos": {
+                        "x": 104.6,
+                        "y": 87.9875
+                    },
+                    "uuid": "989c8261-0cd6-4705-999f-d31546f9ba57"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "2 için [SENSE_P] R20 ayak F.Cu",
+                    "pos": {
+                        "x": 90.2,
+                        "y": 87.9875
+                    },
+                    "uuid": "78b54b0a-54b8-4346-92f5-0bcd9615d426"
+                },
+                {
+                    "description": "1 için [SENSE_P] C21 ayak F.Cu",
+                    "pos": {
+                        "x": 92.6,
+                        "y": 83.75
+                    },
+                    "uuid": "d0abe89e-d184-4334-aa4f-60b579d9e38b"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "1 için [SENSE_P] C21 ayak F.Cu",
+                    "pos": {
+                        "x": 92.6,
+                        "y": 83.75
+                    },
+                    "uuid": "d0abe89e-d184-4334-aa4f-60b579d9e38b"
+                },
+                {
+                    "description": "3 için [SENSE_P] U1 ayak F.Cu",
+                    "pos": {
+                        "x": 93.5,
+                        "y": 81.475
+                    },
+                    "uuid": "2bb193e9-5ee9-4f00-9dbd-273ae877f07d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "22 için [BOOST] U1 ayak F.Cu",
+                    "pos": {
+                        "x": 100.5,
+                        "y": 75.925
+                    },
+                    "uuid": "2e807235-ae22-4ae2-a227-762de03c26bf"
+                },
+                {
+                    "description": "1 için [BOOST] C22 ayak F.Cu",
+                    "pos": {
+                        "x": 103.0,
+                        "y": 73.55
+                    },
+                    "uuid": "3a6ba5b1-2138-442b-8389-336a65bde8e7"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "21 için [SW] U1 ayak F.Cu",
+                    "pos": {
+                        "x": 101.0,
+                        "y": 75.925
+                    },
+                    "uuid": "f490dac3-c39e-47c8-a4fe-a613b817b606"
+                },
+                {
+                    "description": "2 için [SW] C22 ayak F.Cu",
+                    "pos": {
+                        "x": 103.0,
+                        "y": 71.65
+                    },
+                    "uuid": "36b8a1c0-7329-4e36-aaf0-48b9ce1b6c71"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "2 için [SW] C22 ayak F.Cu",
+                    "pos": {
+                        "x": 103.0,
+                        "y": 71.65
+                    },
+                    "uuid": "36b8a1c0-7329-4e36-aaf0-48b9ce1b6c71"
+                },
+                {
+                    "description": "Bölge [SW] F.Cu üzerinde, öncelik 2",
+                    "pos": {
+                        "x": 91.9,
+                        "y": 66.3
+                    },
+                    "uuid": "50cf7fdd-90ec-4849-ad2d-59c83d780ce3"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "1 için [DRVCC] C23 ayak F.Cu",
+                    "pos": {
+                        "x": 87.6,
+                        "y": 80.175
+                    },
+                    "uuid": "963e975f-f314-4282-911e-8b5e0b0964fe"
+                },
+                {
+                    "description": "28 için [DRVCC] U1 ayak F.Cu",
+                    "pos": {
+                        "x": 97.5,
+                        "y": 75.925
+                    },
+                    "uuid": "acd26326-8cc6-4462-b043-4a410478929a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "1 için [DRVCC] C23 ayak F.Cu",
+                    "pos": {
+                        "x": 87.6,
+                        "y": 80.175
+                    },
+                    "uuid": "963e975f-f314-4282-911e-8b5e0b0964fe"
+                },
+                {
+                    "description": "1'in Delik İçi Kaplamalı Geçit pedi [DRVCC] TP11",
+                    "pos": {
+                        "x": 66.5,
+                        "y": 105.5
+                    },
+                    "uuid": "038b5aec-2c44-4557-bc8c-55eff04aca4d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "28 için [DRVCC] U1 ayak F.Cu",
+                    "pos": {
+                        "x": 97.5,
+                        "y": 75.925
+                    },
+                    "uuid": "acd26326-8cc6-4462-b043-4a410478929a"
+                },
+                {
+                    "description": "26 için [DRVCC] U1 ayak F.Cu",
+                    "pos": {
+                        "x": 98.5,
+                        "y": 75.925
+                    },
+                    "uuid": "248abb2e-2e4c-4bb4-9e44-21ebd370e993"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "26 için [DRVCC] U1 ayak F.Cu",
+                    "pos": {
+                        "x": 98.5,
+                        "y": 75.925
+                    },
+                    "uuid": "248abb2e-2e4c-4bb4-9e44-21ebd370e993"
+                },
+                {
+                    "description": "1 için [DRVCC] C24 ayak F.Cu",
+                    "pos": {
+                        "x": 98.2,
+                        "y": 73.55
+                    },
+                    "uuid": "23637801-57c1-42d3-97f2-0d538f5f1ac6"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "1 için [DRVCC] R29 ayak F.Cu",
+                    "pos": {
+                        "x": 124.0,
+                        "y": 103.7125
+                    },
+                    "uuid": "3592e51e-90c4-4bd7-9d12-7e55aa636dab"
+                },
+                {
+                    "description": "26 için [DRVCC] U1 ayak F.Cu",
+                    "pos": {
+                        "x": 98.5,
+                        "y": 75.925
+                    },
+                    "uuid": "248abb2e-2e4c-4bb4-9e44-21ebd370e993"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "1 için [INTVCC] R12 ayak F.Cu",
+                    "pos": {
+                        "x": 87.8,
+                        "y": 89.8125
+                    },
+                    "uuid": "ce5ccf6e-24c0-4f94-a4dd-cbd5d848e20e"
+                },
+                {
+                    "description": "1'in Delik İçi Kaplamalı Geçit pedi [INTVCC] TP12",
+                    "pos": {
+                        "x": 71.0,
+                        "y": 105.5
+                    },
+                    "uuid": "c664b426-1db8-4bb8-91c4-669c498218d2"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "1 için [INTVCC] C25 ayak F.Cu",
+                    "pos": {
+                        "x": 91.0,
+                        "y": 73.55
+                    },
+                    "uuid": "95deafe6-24e7-46b9-9c2d-8d5af8257f91"
+                },
+                {
+                    "description": "38 için [INTVCC] U1 ayak F.Cu",
+                    "pos": {
+                        "x": 92.5,
+                        "y": 75.925
+                    },
+                    "uuid": "d888efde-e164-4ac0-857c-4bb7e24760cb"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "38 için [INTVCC] U1 ayak F.Cu",
+                    "pos": {
+                        "x": 92.5,
+                        "y": 75.925
+                    },
+                    "uuid": "d888efde-e164-4ac0-857c-4bb7e24760cb"
+                },
+                {
+                    "description": "18 için [INTVCC] U1 ayak F.Cu",
+                    "pos": {
+                        "x": 101.0,
+                        "y": 81.475
+                    },
+                    "uuid": "bf80a12b-706d-4d7b-9220-9836e884686e"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "38 için [INTVCC] U1 ayak F.Cu",
+                    "pos": {
+                        "x": 92.5,
+                        "y": 75.925
+                    },
+                    "uuid": "d888efde-e164-4ac0-857c-4bb7e24760cb"
+                },
+                {
+                    "description": "1 için [INTVCC] R12 ayak F.Cu",
+                    "pos": {
+                        "x": 87.8,
+                        "y": 89.8125
+                    },
+                    "uuid": "ce5ccf6e-24c0-4f94-a4dd-cbd5d848e20e"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "19 için [INTVCC] U1 ayak F.Cu",
+                    "pos": {
+                        "x": 101.5,
+                        "y": 81.475
+                    },
+                    "uuid": "c947cd77-407d-44e4-b6d8-f87f80a0e3ab"
+                },
+                {
+                    "description": "18 için [INTVCC] U1 ayak F.Cu",
+                    "pos": {
+                        "x": 101.0,
+                        "y": 81.475
+                    },
+                    "uuid": "bf80a12b-706d-4d7b-9220-9836e884686e"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "19 için [INTVCC] U1 ayak F.Cu",
+                    "pos": {
+                        "x": 101.5,
+                        "y": 81.475
+                    },
+                    "uuid": "c947cd77-407d-44e4-b6d8-f87f80a0e3ab"
+                },
+                {
+                    "description": "1 için [INTVCC] R19 ayak F.Cu",
+                    "pos": {
+                        "x": 104.6,
+                        "y": 83.7875
+                    },
+                    "uuid": "e5d3b6fd-03c1-444f-9796-66ac8519673f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "1 için [INTVCC] R19 ayak F.Cu",
+                    "pos": {
+                        "x": 104.6,
+                        "y": 83.7875
+                    },
+                    "uuid": "e5d3b6fd-03c1-444f-9796-66ac8519673f"
+                },
+                {
+                    "description": "1 için [INTVCC] R17 ayak F.Cu",
+                    "pos": {
+                        "x": 107.0,
+                        "y": 83.7875
+                    },
+                    "uuid": "03729500-856e-4c00-9d88-c52a13e873d8"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "1 için [VIN_IC] C26 ayak F.Cu",
+                    "pos": {
+                        "x": 95.8,
+                        "y": 73.55
+                    },
+                    "uuid": "3546bbb5-8575-4e8f-8f7c-00a1c6f8fa45"
+                },
+                {
+                    "description": "2 için [VIN_IC] R21 ayak F.Cu",
+                    "pos": {
+                        "x": 73.4,
+                        "y": 71.2125
+                    },
+                    "uuid": "e449bfea-ba73-42a2-9f5a-ab207513a7f4"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "30 için [VIN_IC] U1 ayak F.Cu",
+                    "pos": {
+                        "x": 96.5,
+                        "y": 75.925
+                    },
+                    "uuid": "dcc6d1c6-ab5f-45ea-8bc3-9d025f5d42a6"
+                },
+                {
+                    "description": "1 için [VIN_IC] C26 ayak F.Cu",
+                    "pos": {
+                        "x": 95.8,
+                        "y": 73.55
+                    },
+                    "uuid": "3546bbb5-8575-4e8f-8f7c-00a1c6f8fa45"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "2 için [EXTVCC] R22 ayak F.Cu",
+                    "pos": {
+                        "x": 83.8,
+                        "y": 71.6875
+                    },
+                    "uuid": "73a69dd0-a782-4a0a-948e-15ab3f9c8e0a"
+                },
+                {
+                    "description": "1'in Delik İçi Kaplamalı Geçit pedi [EXTVCC] TP13",
+                    "pos": {
+                        "x": 75.5,
+                        "y": 105.5
+                    },
+                    "uuid": "28831dd9-cffe-4f25-8273-43565c3fd63a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "1 için [EXTVCC] C27 ayak F.Cu",
+                    "pos": {
+                        "x": 93.4,
+                        "y": 73.55
+                    },
+                    "uuid": "c701f5a2-5f33-43fc-86f3-75099234fe6e"
+                },
+                {
+                    "description": "2 için [EXTVCC] R22 ayak F.Cu",
+                    "pos": {
+                        "x": 83.8,
+                        "y": 71.6875
+                    },
+                    "uuid": "73a69dd0-a782-4a0a-948e-15ab3f9c8e0a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "32 için [EXTVCC] U1 ayak F.Cu",
+                    "pos": {
+                        "x": 95.5,
+                        "y": 75.925
+                    },
+                    "uuid": "a083c58b-535b-481c-ba04-06e45c61410c"
+                },
+                {
+                    "description": "1 için [EXTVCC] C27 ayak F.Cu",
+                    "pos": {
+                        "x": 93.4,
+                        "y": 73.55
+                    },
+                    "uuid": "c701f5a2-5f33-43fc-86f3-75099234fe6e"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "1'in Delik İçi Kaplamalı Geçit pedi [+5V_CC] TP21",
+                    "pos": {
+                        "x": 121.5,
+                        "y": 105.5
+                    },
+                    "uuid": "9d9aa66f-ba3b-4472-a352-781811d788dd"
+                },
+                {
+                    "description": "1 için [+5V_CC] C33 ayak F.Cu",
+                    "pos": {
+                        "x": 126.525,
+                        "y": 104.6
+                    },
+                    "uuid": "698ce231-730c-45e4-9e72-30442eabceed"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "5 için [+5V_CC] U3 ayak F.Cu",
+                    "pos": {
+                        "x": 121.6375,
+                        "y": 91.55
+                    },
+                    "uuid": "d91058b1-3e96-474c-a25d-c545ce7a5c52"
+                },
+                {
+                    "description": "1 için [+5V_CC] R26 ayak F.Cu",
+                    "pos": {
+                        "x": 119.2,
+                        "y": 97.7125
+                    },
+                    "uuid": "e2846a9c-2684-4332-9441-4d6d683e507a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "1 için [+5V_CC] C29 ayak F.Cu",
+                    "pos": {
+                        "x": 123.65,
+                        "y": 90.9
+                    },
+                    "uuid": "dd1e9bc6-1785-4916-98e7-ef5ac7305db2"
+                },
+                {
+                    "description": "5 için [+5V_CC] U3 ayak F.Cu",
+                    "pos": {
+                        "x": 121.6375,
+                        "y": 91.55
+                    },
+                    "uuid": "d91058b1-3e96-474c-a25d-c545ce7a5c52"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "3 için [+5V_CC] U5 ayak F.Cu",
+                    "pos": {
+                        "x": 126.05,
+                        "y": 101.5
+                    },
+                    "uuid": "38901fc1-7dc9-48d2-865b-602c3999388f"
+                },
+                {
+                    "description": "1 için [+5V_CC] R26 ayak F.Cu",
+                    "pos": {
+                        "x": 119.2,
+                        "y": 97.7125
+                    },
+                    "uuid": "e2846a9c-2684-4332-9441-4d6d683e507a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "1 için [+5V_CC] C33 ayak F.Cu",
+                    "pos": {
+                        "x": 126.525,
+                        "y": 104.6
+                    },
+                    "uuid": "698ce231-730c-45e4-9e72-30442eabceed"
+                },
+                {
+                    "description": "3 için [+5V_CC] U5 ayak F.Cu",
+                    "pos": {
+                        "x": 126.05,
+                        "y": 101.5
+                    },
+                    "uuid": "38901fc1-7dc9-48d2-865b-602c3999388f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "5 için [+5V_CC] U2 ayak F.Cu",
+                    "pos": {
+                        "x": 129.1625,
+                        "y": 91.45
+                    },
+                    "uuid": "759fec69-ddef-48c3-8061-9b58f2b1605e"
+                },
+                {
+                    "description": "1 için [+5V_CC] C29 ayak F.Cu",
+                    "pos": {
+                        "x": 123.65,
+                        "y": 90.9
+                    },
+                    "uuid": "dd1e9bc6-1785-4916-98e7-ef5ac7305db2"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "1 için [+5V_CC] C28 ayak F.Cu",
+                    "pos": {
+                        "x": 129.35,
+                        "y": 93.6
+                    },
+                    "uuid": "38c4b0fa-b6ae-402e-9946-90103650f374"
+                },
+                {
+                    "description": "5 için [+5V_CC] U2 ayak F.Cu",
+                    "pos": {
+                        "x": 129.1625,
+                        "y": 91.45
+                    },
+                    "uuid": "759fec69-ddef-48c3-8061-9b58f2b1605e"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "1 için [CC_INV] C30 ayak F.Cu",
+                    "pos": {
+                        "x": 121.45,
+                        "y": 89.0
+                    },
+                    "uuid": "3b7b66ed-81c8-45af-9425-97399c5c2b73"
+                },
+                {
+                    "description": "4 için [CC_INV] U3 ayak F.Cu",
+                    "pos": {
+                        "x": 121.6375,
+                        "y": 93.45
+                    },
+                    "uuid": "afb49f19-d326-48e8-9c32-5a5acdc6cecb"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "4 için [CC_INV] U3 ayak F.Cu",
+                    "pos": {
+                        "x": 121.6375,
+                        "y": 93.45
+                    },
+                    "uuid": "afb49f19-d326-48e8-9c32-5a5acdc6cecb"
+                },
+                {
+                    "description": "2 için [CC_INV] R23 ayak F.Cu",
+                    "pos": {
+                        "x": 124.0875,
+                        "y": 93.45
+                    },
+                    "uuid": "f5e523c5-64d3-4bff-b6d0-42e07375b1e7"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "1 için [CC_INV] D2 ayak F.Cu",
+                    "pos": {
+                        "x": 122.15,
+                        "y": 86.4
+                    },
+                    "uuid": "36f3af84-ce0c-453e-b477-de955340e8ae"
+                },
+                {
+                    "description": "1 için [CC_INV] C30 ayak F.Cu",
+                    "pos": {
+                        "x": 121.45,
+                        "y": 89.0
+                    },
+                    "uuid": "3b7b66ed-81c8-45af-9425-97399c5c2b73"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "1 için [CC_OUT] D1 ayak F.Cu",
+                    "pos": {
+                        "x": 113.65,
+                        "y": 88.9
+                    },
+                    "uuid": "3d4e5095-97b1-434a-97b7-6f92c7e4fa65"
+                },
+                {
+                    "description": "1'in Delik İçi Kaplamalı Geçit pedi [CC_OUT] TP20",
+                    "pos": {
+                        "x": 98.0,
+                        "y": 105.5
+                    },
+                    "uuid": "dfceabdd-8e63-47ef-8044-28a64bfe1415"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "2 için [CC_OUT] D2 ayak F.Cu",
+                    "pos": {
+                        "x": 118.85,
+                        "y": 86.4
+                    },
+                    "uuid": "f12eb7ae-d78c-4272-83c7-43fcc7727903"
+                },
+                {
+                    "description": "1 için [CC_OUT] D1 ayak F.Cu",
+                    "pos": {
+                        "x": 113.65,
+                        "y": 88.9
+                    },
+                    "uuid": "3d4e5095-97b1-434a-97b7-6f92c7e4fa65"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "1 için [CC_OUT] U3 ayak F.Cu",
+                    "pos": {
+                        "x": 119.3625,
+                        "y": 91.55
+                    },
+                    "uuid": "a4706d5b-771b-4b16-94f3-c5bf265f2064"
+                },
+                {
+                    "description": "2 için [CC_OUT] C30 ayak F.Cu",
+                    "pos": {
+                        "x": 119.55,
+                        "y": 89.0
+                    },
+                    "uuid": "6d6165da-ab95-4feb-9d5a-d1d395288005"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "2 için [CC_OUT] C30 ayak F.Cu",
+                    "pos": {
+                        "x": 119.55,
+                        "y": 89.0
+                    },
+                    "uuid": "6d6165da-ab95-4feb-9d5a-d1d395288005"
+                },
+                {
+                    "description": "2 için [CC_OUT] D2 ayak F.Cu",
+                    "pos": {
+                        "x": 118.85,
+                        "y": 86.4
+                    },
+                    "uuid": "f12eb7ae-d78c-4272-83c7-43fcc7727903"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "1'in Delik İçi Kaplamalı Geçit pedi [VREF_CC] TP19",
+                    "pos": {
+                        "x": 102.5,
+                        "y": 105.5
+                    },
+                    "uuid": "049f4753-f349-42e2-9713-beab8e719038"
+                },
+                {
+                    "description": "2'in Delik İçi Kaplamalı Geçit pedi [VREF_CC] RV1",
+                    "pos": {
+                        "x": 111.96,
+                        "y": 102.6
+                    },
+                    "uuid": "a411350b-ab66-42a8-b1ad-c941b51be87f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "2'in Delik İçi Kaplamalı Geçit pedi [VREF_CC] RV1",
+                    "pos": {
+                        "x": 111.96,
+                        "y": 102.6
+                    },
+                    "uuid": "a411350b-ab66-42a8-b1ad-c941b51be87f"
+                },
+                {
+                    "description": "1 için [VREF_CC] C31 ayak F.Cu",
+                    "pos": {
+                        "x": 117.55,
+                        "y": 93.45
+                    },
+                    "uuid": "039fe7f3-57cf-4b4a-945e-8d45743c6c0e"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "3 için [VREF_CC] U3 ayak F.Cu",
+                    "pos": {
+                        "x": 119.3625,
+                        "y": 93.45
+                    },
+                    "uuid": "6cba16d5-f260-4ec4-8d8a-083385a129db"
+                },
+                {
+                    "description": "1 için [VREF_CC] C31 ayak F.Cu",
+                    "pos": {
+                        "x": 117.55,
+                        "y": 93.45
+                    },
+                    "uuid": "039fe7f3-57cf-4b4a-945e-8d45743c6c0e"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "1 için [LDO_IN] C32 ayak F.Cu",
+                    "pos": {
+                        "x": 124.0,
+                        "y": 99.55
+                    },
+                    "uuid": "30aaeca0-9356-4968-bcc3-c5a8539da940"
+                },
+                {
+                    "description": "2 için [LDO_IN] R29 ayak F.Cu",
+                    "pos": {
+                        "x": 124.0,
+                        "y": 101.8875
+                    },
+                    "uuid": "3083a38a-380a-4d22-ae28-9b4bc3f3d6ba"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "2 için [LDO_IN] U5 ayak F.Cu",
+                    "pos": {
+                        "x": 126.1375,
+                        "y": 100.0
+                    },
+                    "uuid": "3ce7e77b-bad0-4b5e-ab2f-4a43349bcc46"
+                },
+                {
+                    "description": "1 için [LDO_IN] C32 ayak F.Cu",
+                    "pos": {
+                        "x": 124.0,
+                        "y": 99.55
+                    },
+                    "uuid": "30aaeca0-9356-4968-bcc3-c5a8539da940"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "2 için [CC_D] R24 ayak F.Cu",
+                    "pos": {
+                        "x": 107.0,
+                        "y": 87.9875
+                    },
+                    "uuid": "3097074b-3f5f-4ba7-ba52-fb5098e83d79"
+                },
+                {
+                    "description": "2 için [CC_D] D1 ayak F.Cu",
+                    "pos": {
+                        "x": 110.35,
+                        "y": 88.9
+                    },
+                    "uuid": "41640e9b-4a09-43cf-8d04-9c23edbe73bd"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "4 için [VOUT] U2 ayak F.Cu",
+                    "pos": {
+                        "x": 129.1625,
+                        "y": 89.55
+                    },
+                    "uuid": "765fffcd-af1e-48c9-9015-211b162ddc6b"
+                },
+                {
+                    "description": "1 için [VOUT] R15 ayak F.Cu",
+                    "pos": {
+                        "x": 97.4,
+                        "y": 89.8125
+                    },
+                    "uuid": "3937192d-5808-44d7-8419-8271b83bfad5"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Bölge [VOUT] F.Cu üzerinde, öncelik 2",
+                    "pos": {
+                        "x": 134.0,
+                        "y": 92.0
+                    },
+                    "uuid": "8b0d7fe4-3c0c-4602-a3f8-8546b22c6941"
+                },
+                {
+                    "description": "4 için [VOUT] U2 ayak F.Cu",
+                    "pos": {
+                        "x": 129.1625,
+                        "y": 89.55
+                    },
+                    "uuid": "765fffcd-af1e-48c9-9015-211b162ddc6b"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Bölge [SNS_P] F.Cu üzerinde, öncelik 2",
+                    "pos": {
+                        "x": 122.9,
+                        "y": 65.0
+                    },
+                    "uuid": "7d4957af-465a-4c8b-a155-4bf3319547b2"
+                },
+                {
+                    "description": "1 için [SNS_P] R20 ayak F.Cu",
+                    "pos": {
+                        "x": 90.2,
+                        "y": 89.8125
+                    },
+                    "uuid": "e7db41b8-8124-4004-a56b-3c61b613b06b"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "2 için [TG_G] R5 ayak F.Cu",
+                    "pos": {
+                        "x": 105.4,
+                        "y": 71.6875
+                    },
+                    "uuid": "5b1bb92e-b5c5-4ce7-a262-c4e0751831ae"
+                },
+                {
+                    "description": "4 için [TG_G] Q1 ayak F.Cu",
+                    "pos": {
+                        "x": 96.405,
+                        "y": 66.9
+                    },
+                    "uuid": "0dc0138f-830e-47dc-b4bf-7d07b74b780d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "1'in Delik İçi Kaplamalı Geçit pedi [TG_G] TP9",
+                    "pos": {
+                        "x": 111.5,
+                        "y": 81.2
+                    },
+                    "uuid": "2b6ca4a4-5860-475a-9139-b65ab2d76625"
+                },
+                {
+                    "description": "2 için [TG_G] R5 ayak F.Cu",
+                    "pos": {
+                        "x": 105.4,
+                        "y": 71.6875
+                    },
+                    "uuid": "5b1bb92e-b5c5-4ce7-a262-c4e0751831ae"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "4 için [BG_G] Q2 ayak F.Cu",
+                    "pos": {
+                        "x": 100.595,
+                        "y": 61.1
+                    },
+                    "uuid": "9c69198f-2c86-445c-9968-a7b5f1871249"
+                },
+                {
+                    "description": "2 için [BG_G] R6 ayak F.Cu",
+                    "pos": {
+                        "x": 100.6,
+                        "y": 71.6875
+                    },
+                    "uuid": "d9b3f4f8-aae4-4649-a8f4-a381a5e2ce82"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "2 için [BG_G] R6 ayak F.Cu",
+                    "pos": {
+                        "x": 100.6,
+                        "y": 71.6875
+                    },
+                    "uuid": "d9b3f4f8-aae4-4649-a8f4-a381a5e2ce82"
+                },
+                {
+                    "description": "1'in Delik İçi Kaplamalı Geçit pedi [BG_G] TP10",
+                    "pos": {
+                        "x": 115.8,
+                        "y": 81.2
+                    },
+                    "uuid": "3f728629-4462-4284-a7ee-7c0d93d0c4f7"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "20 için [TG] U1 ayak F.Cu",
+                    "pos": {
+                        "x": 101.5,
+                        "y": 75.925
+                    },
+                    "uuid": "9a09055e-8174-4a86-a94d-f6b372216100"
+                },
+                {
+                    "description": "1 için [TG] R5 ayak F.Cu",
+                    "pos": {
+                        "x": 105.4,
+                        "y": 73.5125
+                    },
+                    "uuid": "c7b0b4a8-4edc-478d-8ca5-1f189f26fd5f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "24 için [BG] U1 ayak F.Cu",
+                    "pos": {
+                        "x": 99.5,
+                        "y": 75.925
+                    },
+                    "uuid": "4197f3b3-dbda-48c3-8870-8b6bf7f686e8"
+                },
+                {
+                    "description": "1 için [BG] R6 ayak F.Cu",
+                    "pos": {
+                        "x": 100.6,
+                        "y": 73.5125
+                    },
+                    "uuid": "1295441d-dfbc-4773-b104-f7b10c584ae2"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "17 için [FREQ] U1 ayak F.Cu",
+                    "pos": {
+                        "x": 100.5,
+                        "y": 81.475
+                    },
+                    "uuid": "2987d62b-1be6-4075-9959-179181cf5d03"
+                },
+                {
+                    "description": "1 için [FREQ] R8 ayak F.Cu",
+                    "pos": {
+                        "x": 102.2,
+                        "y": 83.7875
+                    },
+                    "uuid": "04345515-70c7-49e4-8552-78946da4bf1b"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "1 için [OVLO] R11 ayak F.Cu",
+                    "pos": {
+                        "x": 90.2,
+                        "y": 83.7875
+                    },
+                    "uuid": "6194ed81-39ca-46f4-8a5c-6074389e8f4b"
+                },
+                {
+                    "description": "1 için [OVLO] U1 ayak F.Cu",
+                    "pos": {
+                        "x": 92.5,
+                        "y": 81.475
+                    },
+                    "uuid": "6f4dcaf7-b86d-424c-8979-ed8d08bc9697"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "1 için [OVLO] U1 ayak F.Cu",
+                    "pos": {
+                        "x": 92.5,
+                        "y": 81.475
+                    },
+                    "uuid": "6f4dcaf7-b86d-424c-8979-ed8d08bc9697"
+                },
+                {
+                    "description": "2 için [OVLO] R10 ayak F.Cu",
+                    "pos": {
+                        "x": 90.2,
+                        "y": 79.6125
+                    },
+                    "uuid": "2c02569c-183d-4028-9040-323de5491e65"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "8 için [MODE] U1 ayak F.Cu",
+                    "pos": {
+                        "x": 96.0,
+                        "y": 81.475
+                    },
+                    "uuid": "231979c5-f5ab-4086-a3f0-bc4e22510d1a"
+                },
+                {
+                    "description": "1 için [MODE] R18 ayak F.Cu",
+                    "pos": {
+                        "x": 92.6,
+                        "y": 87.9875
+                    },
+                    "uuid": "53124ad2-b1bf-49fc-840d-b26603614dd7"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "2 için [MODE] R17 ayak F.Cu",
+                    "pos": {
+                        "x": 107.0,
+                        "y": 85.6125
+                    },
+                    "uuid": "3e1440a1-4680-424f-ba18-0d26f684a696"
+                },
+                {
+                    "description": "8 için [MODE] U1 ayak F.Cu",
+                    "pos": {
+                        "x": 96.0,
+                        "y": 81.475
+                    },
+                    "uuid": "231979c5-f5ab-4086-a3f0-bc4e22510d1a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "14 için [PGOOD] U1 ayak F.Cu",
+                    "pos": {
+                        "x": 99.0,
+                        "y": 81.475
+                    },
+                    "uuid": "97e7db8a-a7de-40a7-8535-6e4cdaf78703"
+                },
+                {
+                    "description": "1'in Delik İçi Kaplamalı Geçit pedi [PGOOD] TP15",
+                    "pos": {
+                        "x": 84.5,
+                        "y": 105.5
+                    },
+                    "uuid": "d35d8038-2f7b-4f3d-bdb3-9c8e54fe0ed3"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "2 için [PGOOD] R19 ayak F.Cu",
+                    "pos": {
+                        "x": 104.6,
+                        "y": 85.6125
+                    },
+                    "uuid": "7233879e-1478-48d3-a1b4-c8568e9cbd36"
+                },
+                {
+                    "description": "14 için [PGOOD] U1 ayak F.Cu",
+                    "pos": {
+                        "x": 99.0,
+                        "y": 81.475
+                    },
+                    "uuid": "97e7db8a-a7de-40a7-8535-6e4cdaf78703"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "1 için [ISENSE] U2 ayak F.Cu",
+                    "pos": {
+                        "x": 131.4375,
+                        "y": 91.45
+                    },
+                    "uuid": "1095f983-cece-4719-8ceb-2b40cbf376e0"
+                },
+                {
+                    "description": "1 için [ISENSE] R23 ayak F.Cu",
+                    "pos": {
+                        "x": 125.9125,
+                        "y": 93.45
+                    },
+                    "uuid": "7e37dcaf-a2b5-4226-a2e5-6fe265d6ff41"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "1'in Delik İçi Kaplamalı Geçit pedi [ISENSE] TP18",
+                    "pos": {
+                        "x": 132.6,
+                        "y": 102.6
+                    },
+                    "uuid": "85ba4913-046c-45f7-8202-001e5d82457a"
+                },
+                {
+                    "description": "1 için [ISENSE] U2 ayak F.Cu",
+                    "pos": {
+                        "x": 131.4375,
+                        "y": 91.45
+                    },
+                    "uuid": "1095f983-cece-4719-8ceb-2b40cbf376e0"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "2 için [CC_LINK] R25 ayak F.Cu",
+                    "pos": {
+                        "x": 104.6,
+                        "y": 89.8125
+                    },
+                    "uuid": "9ab69486-b3a3-416a-98ff-469aa790ccaa"
+                },
+                {
+                    "description": "1 için [CC_LINK] R24 ayak F.Cu",
+                    "pos": {
+                        "x": 107.0,
+                        "y": 89.8125
+                    },
+                    "uuid": "573945ad-8a0c-4a43-b4c3-4156e691b41d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "1 için [VREF_2V5] R27 ayak F.Cu",
+                    "pos": {
+                        "x": 112.8,
+                        "y": 97.7125
+                    },
+                    "uuid": "179a5432-e19e-4200-91d3-f20d981bb6db"
+                },
+                {
+                    "description": "2 için [VREF_2V5] U4 ayak F.Cu",
+                    "pos": {
+                        "x": 115.0625,
+                        "y": 97.75
+                    },
+                    "uuid": "29bfa1cb-fa7c-42ac-a285-6d597097eab1"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "2 için [VREF_2V5] U4 ayak F.Cu",
+                    "pos": {
+                        "x": 115.0625,
+                        "y": 97.75
+                    },
+                    "uuid": "29bfa1cb-fa7c-42ac-a285-6d597097eab1"
+                },
+                {
+                    "description": "1 için [VREF_2V5] U4 ayak F.Cu",
+                    "pos": {
+                        "x": 115.0625,
+                        "y": 95.85
+                    },
+                    "uuid": "b21aadb7-7886-4428-a8cb-f44151d11873"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "2 için [VREF_2V5] R26 ayak F.Cu",
+                    "pos": {
+                        "x": 119.2,
+                        "y": 95.8875
+                    },
+                    "uuid": "c42c21b6-45d8-496c-a48a-bc2c28342ea7"
+                },
+                {
+                    "description": "1 için [VREF_2V5] U4 ayak F.Cu",
+                    "pos": {
+                        "x": 115.0625,
+                        "y": 95.85
+                    },
+                    "uuid": "b21aadb7-7886-4428-a8cb-f44151d11873"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "2 için [TRIM_HI] R27 ayak F.Cu",
+                    "pos": {
+                        "x": 112.8,
+                        "y": 95.8875
+                    },
+                    "uuid": "68e253fb-db97-4cc2-a07c-071b523a3226"
+                },
+                {
+                    "description": "1'in Delik İçi Kaplamalı Geçit pedi [TRIM_HI] RV1",
+                    "pos": {
+                        "x": 114.5,
+                        "y": 102.6
+                    },
+                    "uuid": "b6492b62-c323-4a7f-8d00-b657f2be6726"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "1 için [TRIM_LO] R28 ayak F.Cu",
+                    "pos": {
+                        "x": 105.3,
+                        "y": 101.4125
+                    },
+                    "uuid": "6069cfaa-0296-4aac-a09b-08181d977ac0"
+                },
+                {
+                    "description": "3'in Delik İçi Kaplamalı Geçit pedi [TRIM_LO] RV1",
+                    "pos": {
+                        "x": 109.42,
+                        "y": 102.6
+                    },
+                    "uuid": "2f38c010-4394-4765-bb1f-f1774acee1cf"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Bölgeye termal rölyef bağlantısı eksik (katman B.Cu; bölge bağlantı kolu sayısı 2; gerçek 1)",
+            "items": [
+                {
+                    "description": "Bölge [GND] B.Cu üzerinde, öncelik 0",
+                    "pos": {
+                        "x": 50.7,
+                        "y": 43.0
+                    },
+                    "uuid": "e85d938d-4fe2-4019-a6ff-70b867519e56"
+                },
+                {
+                    "description": "39'in Delik İçi Kaplamalı Geçit pedi [GND] U1",
+                    "pos": {
+                        "x": 95.4,
+                        "y": 79.5
+                    },
+                    "uuid": "f709eed7-dd44-4ac4-bc6b-057d96f0b53c"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Bölgeye termal rölyef bağlantısı eksik (katman B.Cu; bölge bağlantı kolu sayısı 2; gerçek 1)",
+            "items": [
+                {
+                    "description": "Bölge [GND] B.Cu üzerinde, öncelik 0",
+                    "pos": {
+                        "x": 50.7,
+                        "y": 43.0
+                    },
+                    "uuid": "e85d938d-4fe2-4019-a6ff-70b867519e56"
+                },
+                {
+                    "description": "39'in Delik İçi Kaplamalı Geçit pedi [GND] U1",
+                    "pos": {
+                        "x": 98.6,
+                        "y": 79.5
+                    },
+                    "uuid": "f2a60182-a54d-464a-9072-a854452e3a9f"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Bölgeye termal rölyef bağlantısı eksik (katman B.Cu; bölge bağlantı kolu sayısı 2; gerçek 1)",
+            "items": [
+                {
+                    "description": "Bölge [GND] B.Cu üzerinde, öncelik 0",
+                    "pos": {
+                        "x": 50.7,
+                        "y": 43.0
+                    },
+                    "uuid": "e85d938d-4fe2-4019-a6ff-70b867519e56"
+                },
+                {
+                    "description": "39'in Delik İçi Kaplamalı Geçit pedi [GND] U1",
+                    "pos": {
+                        "x": 95.4,
+                        "y": 78.7
+                    },
+                    "uuid": "b1826d80-fef5-412a-9328-d03a9879c1c8"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Bölgeye termal rölyef bağlantısı eksik (katman B.Cu; bölge bağlantı kolu sayısı 2; gerçek 1)",
+            "items": [
+                {
+                    "description": "Bölge [GND] B.Cu üzerinde, öncelik 0",
+                    "pos": {
+                        "x": 50.7,
+                        "y": 43.0
+                    },
+                    "uuid": "e85d938d-4fe2-4019-a6ff-70b867519e56"
+                },
+                {
+                    "description": "39'in Delik İçi Kaplamalı Geçit pedi [GND] U1",
+                    "pos": {
+                        "x": 97.0,
+                        "y": 78.7
+                    },
+                    "uuid": "5f29fdeb-1c67-44a9-84b4-7d748338c28a"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Bölgeye termal rölyef bağlantısı eksik (katman B.Cu; bölge bağlantı kolu sayısı 2; gerçek 1)",
+            "items": [
+                {
+                    "description": "Bölge [GND] B.Cu üzerinde, öncelik 0",
+                    "pos": {
+                        "x": 50.7,
+                        "y": 43.0
+                    },
+                    "uuid": "e85d938d-4fe2-4019-a6ff-70b867519e56"
+                },
+                {
+                    "description": "39'in Delik İçi Kaplamalı Geçit pedi [GND] U1",
+                    "pos": {
+                        "x": 95.4,
+                        "y": 77.9
+                    },
+                    "uuid": "f9a964d0-4bee-4cc0-900c-86aa78ea6a3d"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Bölgeye termal rölyef bağlantısı eksik (katman B.Cu; bölge bağlantı kolu sayısı 2; gerçek 1)",
+            "items": [
+                {
+                    "description": "Bölge [GND] B.Cu üzerinde, öncelik 0",
+                    "pos": {
+                        "x": 50.7,
+                        "y": 43.0
+                    },
+                    "uuid": "e85d938d-4fe2-4019-a6ff-70b867519e56"
+                },
+                {
+                    "description": "39'in Delik İçi Kaplamalı Geçit pedi [GND] U1",
+                    "pos": {
+                        "x": 98.6,
+                        "y": 77.9
+                    },
+                    "uuid": "1e1110bb-2db4-4a1f-a265-be49d4de5cba"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Bölgeye termal rölyef bağlantısı eksik (katman F.Cu; bölge bağlantı kolu sayısı 2; gerçek 1)",
+            "items": [
+                {
+                    "description": "Bölge [GND] F.Cu üzerinde, öncelik 0",
+                    "pos": {
+                        "x": 50.7,
+                        "y": 43.0
+                    },
+                    "uuid": "4ee1595b-2b7f-4507-8ef6-3038e93ec5c8"
+                },
+                {
+                    "description": "9 için [GND] U1 ayak F.Cu",
+                    "pos": {
+                        "x": 96.5,
+                        "y": 81.475
+                    },
+                    "uuid": "b3bc2f2b-66b3-497c-9d51-48871f7c423a"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Bölgeye termal rölyef bağlantısı eksik (katman F.Cu; bölge bağlantı kolu sayısı 2; gerçek 1)",
+            "items": [
+                {
+                    "description": "Bölge [GND] F.Cu üzerinde, öncelik 0",
+                    "pos": {
+                        "x": 50.7,
+                        "y": 43.0
+                    },
+                    "uuid": "4ee1595b-2b7f-4507-8ef6-3038e93ec5c8"
+                },
+                {
+                    "description": "12 için [GND] U1 ayak F.Cu",
+                    "pos": {
+                        "x": 98.0,
+                        "y": 81.475
+                    },
+                    "uuid": "e1487e5d-613e-43d8-bb14-d85f5f34a7d6"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Bölgeye termal rölyef bağlantısı eksik (katman F.Cu; bölge bağlantı kolu sayısı 2; gerçek 1)",
+            "items": [
+                {
+                    "description": "Bölge [GND] F.Cu üzerinde, öncelik 0",
+                    "pos": {
+                        "x": 50.7,
+                        "y": 43.0
+                    },
+                    "uuid": "4ee1595b-2b7f-4507-8ef6-3038e93ec5c8"
+                },
+                {
+                    "description": "13 için [GND] U1 ayak F.Cu",
+                    "pos": {
+                        "x": 98.5,
+                        "y": 81.475
+                    },
+                    "uuid": "305d27e4-89c4-4ceb-9d04-77d263ecfc83"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Bölgeye termal rölyef bağlantısı eksik (katman F.Cu; bölge bağlantı kolu sayısı 2; gerçek 1)",
+            "items": [
+                {
+                    "description": "Bölge [GND] F.Cu üzerinde, öncelik 0",
+                    "pos": {
+                        "x": 50.7,
+                        "y": 43.0
+                    },
+                    "uuid": "4ee1595b-2b7f-4507-8ef6-3038e93ec5c8"
+                },
+                {
+                    "description": "15 için [GND] U1 ayak F.Cu",
+                    "pos": {
+                        "x": 99.5,
+                        "y": 81.475
+                    },
+                    "uuid": "30083df1-1fac-4c3e-a32a-4ca466d13a78"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Bölgeye termal rölyef bağlantısı eksik (katman F.Cu; bölge bağlantı kolu sayısı 2; gerçek 1)",
+            "items": [
+                {
+                    "description": "Bölge [GND] F.Cu üzerinde, öncelik 0",
+                    "pos": {
+                        "x": 50.7,
+                        "y": 43.0
+                    },
+                    "uuid": "4ee1595b-2b7f-4507-8ef6-3038e93ec5c8"
+                },
+                {
+                    "description": "39'in Delik İçi Kaplamalı Geçit pedi [GND] U1",
+                    "pos": {
+                        "x": 95.4,
+                        "y": 79.5
+                    },
+                    "uuid": "f709eed7-dd44-4ac4-bc6b-057d96f0b53c"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Bölgeye termal rölyef bağlantısı eksik (katman F.Cu; bölge bağlantı kolu sayısı 2; gerçek 1)",
+            "items": [
+                {
+                    "description": "Bölge [GND] F.Cu üzerinde, öncelik 0",
+                    "pos": {
+                        "x": 50.7,
+                        "y": 43.0
+                    },
+                    "uuid": "4ee1595b-2b7f-4507-8ef6-3038e93ec5c8"
+                },
+                {
+                    "description": "39'in Delik İçi Kaplamalı Geçit pedi [GND] U1",
+                    "pos": {
+                        "x": 98.6,
+                        "y": 79.5
+                    },
+                    "uuid": "f2a60182-a54d-464a-9072-a854452e3a9f"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Bölgeye termal rölyef bağlantısı eksik (katman F.Cu; bölge bağlantı kolu sayısı 2; gerçek 1)",
+            "items": [
+                {
+                    "description": "Bölge [GND] F.Cu üzerinde, öncelik 0",
+                    "pos": {
+                        "x": 50.7,
+                        "y": 43.0
+                    },
+                    "uuid": "4ee1595b-2b7f-4507-8ef6-3038e93ec5c8"
+                },
+                {
+                    "description": "39'in Delik İçi Kaplamalı Geçit pedi [GND] U1",
+                    "pos": {
+                        "x": 95.4,
+                        "y": 78.7
+                    },
+                    "uuid": "b1826d80-fef5-412a-9328-d03a9879c1c8"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Bölgeye termal rölyef bağlantısı eksik (katman F.Cu; bölge bağlantı kolu sayısı 2; gerçek 1)",
+            "items": [
+                {
+                    "description": "Bölge [GND] F.Cu üzerinde, öncelik 0",
+                    "pos": {
+                        "x": 50.7,
+                        "y": 43.0
+                    },
+                    "uuid": "4ee1595b-2b7f-4507-8ef6-3038e93ec5c8"
+                },
+                {
+                    "description": "39'in Delik İçi Kaplamalı Geçit pedi [GND] U1",
+                    "pos": {
+                        "x": 97.0,
+                        "y": 78.7
+                    },
+                    "uuid": "5f29fdeb-1c67-44a9-84b4-7d748338c28a"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Bölgeye termal rölyef bağlantısı eksik (katman F.Cu; bölge bağlantı kolu sayısı 2; gerçek 1)",
+            "items": [
+                {
+                    "description": "Bölge [GND] F.Cu üzerinde, öncelik 0",
+                    "pos": {
+                        "x": 50.7,
+                        "y": 43.0
+                    },
+                    "uuid": "4ee1595b-2b7f-4507-8ef6-3038e93ec5c8"
+                },
+                {
+                    "description": "39'in Delik İçi Kaplamalı Geçit pedi [GND] U1",
+                    "pos": {
+                        "x": 95.4,
+                        "y": 77.9
+                    },
+                    "uuid": "f9a964d0-4bee-4cc0-900c-86aa78ea6a3d"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Bölgeye termal rölyef bağlantısı eksik (katman F.Cu; bölge bağlantı kolu sayısı 2; gerçek 1)",
+            "items": [
+                {
+                    "description": "Bölge [GND] F.Cu üzerinde, öncelik 0",
+                    "pos": {
+                        "x": 50.7,
+                        "y": 43.0
+                    },
+                    "uuid": "4ee1595b-2b7f-4507-8ef6-3038e93ec5c8"
+                },
+                {
+                    "description": "39'in Delik İçi Kaplamalı Geçit pedi [GND] U1",
+                    "pos": {
+                        "x": 98.6,
+                        "y": 77.9
+                    },
+                    "uuid": "1e1110bb-2db4-4a1f-a265-be49d4de5cba"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "'R_0805_2012Metric' ayak izi, 'Resistor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor",
+            "items": [
+                {
+                    "description": "Ayak İzi R23",
+                    "pos": {
+                        "x": 125.0,
+                        "y": 93.45
+                    },
+                    "uuid": "028c042d-a312-408e-aac5-e03eb20522e9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "'R_0805_2012Metric' ayak izi, 'Resistor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor",
+            "items": [
+                {
+                    "description": "Ayak İzi R21",
+                    "pos": {
+                        "x": 73.4,
+                        "y": 70.3
+                    },
+                    "uuid": "096be290-5b4f-4427-9549-9355828d4c30"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "'R_0805_2012Metric' ayak izi, 'Resistor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor",
+            "items": [
+                {
+                    "description": "Ayak İzi R18",
+                    "pos": {
+                        "x": 92.6,
+                        "y": 88.9
+                    },
+                    "uuid": "0a526c46-0a4b-4d66-9b9b-1fa8ce26de48"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "'R_0805_2012Metric' ayak izi, 'Resistor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor",
+            "items": [
+                {
+                    "description": "Ayak İzi R5",
+                    "pos": {
+                        "x": 105.4,
+                        "y": 72.6
+                    },
+                    "uuid": "0d3b81f4-1050-463a-aad6-f50971a0fe74"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "'R_0805_2012Metric' ayak izi, 'Resistor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor",
+            "items": [
+                {
+                    "description": "Ayak İzi R20",
+                    "pos": {
+                        "x": 90.2,
+                        "y": 88.9
+                    },
+                    "uuid": "118b2c24-b4c8-4029-98cf-613c20f1d88f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "'C_0805_2012Metric' ayak izi, 'Capacitor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor",
+            "items": [
+                {
+                    "description": "Ayak İzi C32",
+                    "pos": {
+                        "x": 124.0,
+                        "y": 98.6
+                    },
+                    "uuid": "11ad1f4c-e482-40cb-a2d3-121b62ccfe87"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "'Potentiometer_Bourns_3296W_Vertical' ayak izi, 'Potentiometer_THT' kütüphanesindeki kopyasıyla eşleşmiyor",
+            "items": [
+                {
+                    "description": "Ayak İzi RV1",
+                    "pos": {
+                        "x": 114.5,
+                        "y": 102.6
+                    },
+                    "uuid": "1b882938-816d-4d1e-9eed-6d0ed4944bb6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "'C_1210_3225Metric' ayak izi, 'Capacitor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor",
+            "items": [
+                {
+                    "description": "Ayak İzi C2",
+                    "pos": {
+                        "x": 98.5,
+                        "y": 57.9
+                    },
+                    "uuid": "2136fb37-3bc4-4181-905d-cee7b43d33d5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "'SOT-23-5' ayak izi, 'Package_TO_SOT_SMD' kütüphanesindeki kopyasıyla eşleşmiyor",
+            "items": [
+                {
+                    "description": "Ayak İzi U3",
+                    "pos": {
+                        "x": 120.5,
+                        "y": 92.5
+                    },
+                    "uuid": "21566e4a-5e7c-4f4b-907a-05e04b969419"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "'R_0805_2012Metric' ayak izi, 'Resistor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor",
+            "items": [
+                {
+                    "description": "Ayak İzi R28",
+                    "pos": {
+                        "x": 105.3,
+                        "y": 100.5
+                    },
+                    "uuid": "2968a264-fe55-46c8-969c-1356e8100654"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "'C_0805_2012Metric' ayak izi, 'Capacitor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor",
+            "items": [
+                {
+                    "description": "Ayak İzi C20",
+                    "pos": {
+                        "x": 99.8,
+                        "y": 84.7
+                    },
+                    "uuid": "2b953246-4b3f-4dfb-9f7f-b2082e377ffb"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "'R_0805_2012Metric' ayak izi, 'Resistor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor",
+            "items": [
+                {
+                    "description": "Ayak İzi R14",
+                    "pos": {
+                        "x": 95.0,
+                        "y": 84.7
+                    },
+                    "uuid": "2fc0586e-706e-4f44-8108-ba60d65cc204"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "'R_2512_6332Metric' ayak izi, 'Resistor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor",
+            "items": [
+                {
+                    "description": "Ayak İzi R3",
+                    "pos": {
+                        "x": 67.6,
+                        "y": 54.3
+                    },
+                    "uuid": "391f4de2-6df3-41b1-b987-676ed249e495"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "'C_0805_2012Metric' ayak izi, 'Capacitor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor",
+            "items": [
+                {
+                    "description": "Ayak İzi C16",
+                    "pos": {
+                        "x": 88.6,
+                        "y": 72.6
+                    },
+                    "uuid": "45872d34-56ca-4ddf-9145-064f0f011768"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "'C_0805_2012Metric' ayak izi, 'Capacitor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor",
+            "items": [
+                {
+                    "description": "Ayak İzi C31",
+                    "pos": {
+                        "x": 116.6,
+                        "y": 93.45
+                    },
+                    "uuid": "4a310e8a-1d48-470a-8efb-7f5f32058957"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "'R_0805_2012Metric' ayak izi, 'Resistor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor",
+            "items": [
+                {
+                    "description": "Ayak İzi R29",
+                    "pos": {
+                        "x": 124.0,
+                        "y": 102.8
+                    },
+                    "uuid": "4a5ad031-46f9-4c78-b5c2-ac11fe41e7f1"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "'SOT-23' ayak izi, 'Package_TO_SOT_SMD' kütüphanesindeki kopyasıyla eşleşmiyor",
+            "items": [
+                {
+                    "description": "Ayak İzi U4",
+                    "pos": {
+                        "x": 116.0,
+                        "y": 96.8
+                    },
+                    "uuid": "4e5a39bc-0918-44a8-a805-5ba9c03257ac"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "'R_1206_3216Metric' ayak izi, 'Resistor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor",
+            "items": [
+                {
+                    "description": "Ayak İzi R7",
+                    "pos": {
+                        "x": 107.0,
+                        "y": 63.3
+                    },
+                    "uuid": "5284f2c7-1229-409b-a386-49e9389401af"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "'C_1210_3225Metric' ayak izi, 'Capacitor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor",
+            "items": [
+                {
+                    "description": "Ayak İzi C5",
+                    "pos": {
+                        "x": 85.5,
+                        "y": 67.6
+                    },
+                    "uuid": "59b338dc-accc-403b-88aa-b5288f041d1d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "'R_0805_2012Metric' ayak izi, 'Resistor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor",
+            "items": [
+                {
+                    "description": "Ayak İzi R9",
+                    "pos": {
+                        "x": 75.8,
+                        "y": 70.3
+                    },
+                    "uuid": "5cf5597b-4d14-4186-800f-c80761335ab7"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "'C_0805_2012Metric' ayak izi, 'Capacitor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor",
+            "items": [
+                {
+                    "description": "Ayak İzi C26",
+                    "pos": {
+                        "x": 95.8,
+                        "y": 72.6
+                    },
+                    "uuid": "5dd8d968-e8c6-46a1-becb-6d7d2470ff27"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "'C_1210_3225Metric' ayak izi, 'Capacitor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor",
+            "items": [
+                {
+                    "description": "Ayak İzi C3",
+                    "pos": {
+                        "x": 98.5,
+                        "y": 54.6
+                    },
+                    "uuid": "624ed1b0-b8e5-462c-bb1c-6e728ddfbc69"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "'C_0805_2012Metric' ayak izi, 'Capacitor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor",
+            "items": [
+                {
+                    "description": "Ayak İzi C29",
+                    "pos": {
+                        "x": 124.6,
+                        "y": 90.9
+                    },
+                    "uuid": "65cd55e3-4194-4e65-bbe7-ce5868113e66"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "'C_0805_2012Metric' ayak izi, 'Capacitor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor",
+            "items": [
+                {
+                    "description": "Ayak İzi C27",
+                    "pos": {
+                        "x": 93.4,
+                        "y": 72.6
+                    },
+                    "uuid": "66c930b4-f203-476a-b487-043a1afdb1f0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "'R_0805_2012Metric' ayak izi, 'Resistor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor",
+            "items": [
+                {
+                    "description": "Ayak İzi R17",
+                    "pos": {
+                        "x": 107.0,
+                        "y": 84.7
+                    },
+                    "uuid": "69542845-0b89-4753-9458-456f54261c5f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "'C_1210_3225Metric' ayak izi, 'Capacitor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor",
+            "items": [
+                {
+                    "description": "Ayak İzi C12",
+                    "pos": {
+                        "x": 141.7,
+                        "y": 71.4
+                    },
+                    "uuid": "7052edac-8564-4634-987a-6943b1abdaa7"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "'C_1210_3225Metric' ayak izi, 'Capacitor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor",
+            "items": [
+                {
+                    "description": "Ayak İzi C6",
+                    "pos": {
+                        "x": 82.0,
+                        "y": 67.6
+                    },
+                    "uuid": "73706483-e031-4ec1-b799-55583757dc16"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "'R_0805_2012Metric' ayak izi, 'Resistor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor",
+            "items": [
+                {
+                    "description": "Ayak İzi R13",
+                    "pos": {
+                        "x": 97.4,
+                        "y": 84.7
+                    },
+                    "uuid": "73dd8ae2-4414-456c-b893-72d8830cb859"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "'R_0805_2012Metric' ayak izi, 'Resistor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor",
+            "items": [
+                {
+                    "description": "Ayak İzi R1",
+                    "pos": {
+                        "x": 78.0,
+                        "y": 48.3
+                    },
+                    "uuid": "7aced22f-27cd-4133-9992-3feee4567f7e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "'R_0805_2012Metric' ayak izi, 'Resistor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor",
+            "items": [
+                {
+                    "description": "Ayak İzi R11",
+                    "pos": {
+                        "x": 90.2,
+                        "y": 84.7
+                    },
+                    "uuid": "7b184995-38d7-42ab-9195-3fb62649f47c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "'C_1210_3225Metric' ayak izi, 'Capacitor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor",
+            "items": [
+                {
+                    "description": "Ayak İzi C7",
+                    "pos": {
+                        "x": 78.5,
+                        "y": 67.6
+                    },
+                    "uuid": "7b6554fa-fbdf-4559-b410-6a82245fe133"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "'C_0805_2012Metric' ayak izi, 'Capacitor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor",
+            "items": [
+                {
+                    "description": "Ayak İzi C21",
+                    "pos": {
+                        "x": 92.6,
+                        "y": 84.7
+                    },
+                    "uuid": "7dd3ad8f-1995-4364-ac61-d66b699a5297"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "'C_0805_2012Metric' ayak izi, 'Capacitor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor",
+            "items": [
+                {
+                    "description": "Ayak İzi C1",
+                    "pos": {
+                        "x": 72.5,
+                        "y": 44.4
+                    },
+                    "uuid": "91d608b6-98ec-4745-93f8-716cef7c959a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "'C_0805_2012Metric' ayak izi, 'Capacitor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor",
+            "items": [
+                {
+                    "description": "Ayak İzi C18",
+                    "pos": {
+                        "x": 95.0,
+                        "y": 88.9
+                    },
+                    "uuid": "92c8bbeb-f4d5-4980-adf0-935c757044da"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "'C_0805_2012Metric' ayak izi, 'Capacitor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor",
+            "items": [
+                {
+                    "description": "Ayak İzi C25",
+                    "pos": {
+                        "x": 91.0,
+                        "y": 72.6
+                    },
+                    "uuid": "93393923-74f1-47d0-b8aa-36bd72f12046"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "'C_1206_3216Metric' ayak izi, 'Capacitor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor",
+            "items": [
+                {
+                    "description": "Ayak İzi C23",
+                    "pos": {
+                        "x": 87.6,
+                        "y": 78.7
+                    },
+                    "uuid": "9c4c087f-b641-448c-97d1-aacc4bd24ec5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "'R_0805_2012Metric' ayak izi, 'Resistor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor",
+            "items": [
+                {
+                    "description": "Ayak İzi R16",
+                    "pos": {
+                        "x": 99.8,
+                        "y": 88.9
+                    },
+                    "uuid": "a3ca542b-8522-488b-ac4a-8f25484d2bae"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "'C_0805_2012Metric' ayak izi, 'Capacitor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor",
+            "items": [
+                {
+                    "description": "Ayak İzi C19",
+                    "pos": {
+                        "x": 102.2,
+                        "y": 88.9
+                    },
+                    "uuid": "a3cac9fe-375b-4a89-a982-8699e5b5c6fb"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "'L_Wuerth_HCI-1890' ayak izi, 'Inductor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor",
+            "items": [
+                {
+                    "description": "Ayak İzi L1",
+                    "pos": {
+                        "x": 119.5,
+                        "y": 68.2
+                    },
+                    "uuid": "a5c5116c-801c-4d2f-afb2-ec6820699a59"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "'R_0805_2012Metric' ayak izi, 'Resistor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor",
+            "items": [
+                {
+                    "description": "Ayak İzi R15",
+                    "pos": {
+                        "x": 97.4,
+                        "y": 88.9
+                    },
+                    "uuid": "aa3e3031-1fe5-48c8-8565-1b6cebf97a5f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "'C_0805_2012Metric' ayak izi, 'Capacitor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor",
+            "items": [
+                {
+                    "description": "Ayak İzi C28",
+                    "pos": {
+                        "x": 130.3,
+                        "y": 93.6
+                    },
+                    "uuid": "ab474b79-6bb3-4580-9daf-bb6f8e32b613"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "'CP_Radial_D12.5mm_P5.00mm' ayak izi, 'Capacitor_THT' kütüphanesindeki kopyasıyla eşleşmiyor",
+            "items": [
+                {
+                    "description": "Ayak İzi C8",
+                    "pos": {
+                        "x": 65.5,
+                        "y": 64.5
+                    },
+                    "uuid": "afa6740b-ce8a-46ec-bbc1-b5fe81c01c27"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "'SOT-23-5' ayak izi, 'Package_TO_SOT_SMD' kütüphanesindeki kopyasıyla eşleşmiyor",
+            "items": [
+                {
+                    "description": "Ayak İzi U2",
+                    "pos": {
+                        "x": 130.3,
+                        "y": 90.5
+                    },
+                    "uuid": "b59afc99-20f6-4ded-b3f7-dda558c5e07a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "'C_1210_3225Metric' ayak izi, 'Capacitor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor",
+            "items": [
+                {
+                    "description": "Ayak İzi C9",
+                    "pos": {
+                        "x": 141.7,
+                        "y": 61.5
+                    },
+                    "uuid": "ba0ee194-3d1a-4a7c-b9f6-d758b7c8c813"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "'C_0805_2012Metric' ayak izi, 'Capacitor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor",
+            "items": [
+                {
+                    "description": "Ayak İzi C22",
+                    "pos": {
+                        "x": 103.0,
+                        "y": 72.6
+                    },
+                    "uuid": "bb9446f7-8355-431d-adc6-f1bf81bc5176"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "'R_0805_2012Metric' ayak izi, 'Resistor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor",
+            "items": [
+                {
+                    "description": "Ayak İzi R6",
+                    "pos": {
+                        "x": 100.6,
+                        "y": 72.6
+                    },
+                    "uuid": "bd7b1a23-f0cd-4f9f-a019-e94b42141230"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "'C_1210_3225Metric' ayak izi, 'Capacitor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor",
+            "items": [
+                {
+                    "description": "Ayak İzi C11",
+                    "pos": {
+                        "x": 141.7,
+                        "y": 68.1
+                    },
+                    "uuid": "bd9e0200-a2cd-4484-aac5-82f96c6533ae"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "'R_0805_2012Metric' ayak izi, 'Resistor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor",
+            "items": [
+                {
+                    "description": "Ayak İzi R22",
+                    "pos": {
+                        "x": 83.8,
+                        "y": 72.6
+                    },
+                    "uuid": "c12ce016-da29-4b73-a03c-dd2a1fc19baa"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "'R_0805_2012Metric' ayak izi, 'Resistor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor",
+            "items": [
+                {
+                    "description": "Ayak İzi R24",
+                    "pos": {
+                        "x": 107.0,
+                        "y": 88.9
+                    },
+                    "uuid": "c357e878-3c26-48ae-a753-3d006116f54c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "'R_0805_2012Metric' ayak izi, 'Resistor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor",
+            "items": [
+                {
+                    "description": "Ayak İzi R10",
+                    "pos": {
+                        "x": 90.2,
+                        "y": 78.7
+                    },
+                    "uuid": "cb6d7ed1-d33d-4f20-a123-7774680b224e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "'C_1210_3225Metric' ayak izi, 'Capacitor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor",
+            "items": [
+                {
+                    "description": "Ayak İzi C10",
+                    "pos": {
+                        "x": 141.7,
+                        "y": 64.8
+                    },
+                    "uuid": "d2d06f64-8ba2-4eab-993e-f6c2ef0f8470"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "'R_0805_2012Metric' ayak izi, 'Resistor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor",
+            "items": [
+                {
+                    "description": "Ayak İzi R25",
+                    "pos": {
+                        "x": 104.6,
+                        "y": 88.9
+                    },
+                    "uuid": "d8e44d98-a2fa-469c-918c-efbd3c1864b6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "'C_0805_2012Metric' ayak izi, 'Capacitor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor",
+            "items": [
+                {
+                    "description": "Ayak İzi C24",
+                    "pos": {
+                        "x": 98.2,
+                        "y": 72.6
+                    },
+                    "uuid": "d9b898c8-97d1-4fa0-9cd6-f7ffd3d56346"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "'R_2512_6332Metric' ayak izi, 'Resistor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor",
+            "items": [
+                {
+                    "description": "Ayak İzi RS1",
+                    "pos": {
+                        "x": 133.5,
+                        "y": 68.2
+                    },
+                    "uuid": "dcfe0ef5-3f3d-4c3d-aac0-dfaf602f22ea"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "'R_0805_2012Metric' ayak izi, 'Resistor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor",
+            "items": [
+                {
+                    "description": "Ayak İzi R26",
+                    "pos": {
+                        "x": 119.2,
+                        "y": 96.8
+                    },
+                    "uuid": "de4e5b78-b93f-4bc1-9315-85c21901b7cc"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "'R_2512_6332Metric' ayak izi, 'Resistor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor",
+            "items": [
+                {
+                    "description": "Ayak İzi R4",
+                    "pos": {
+                        "x": 65.5,
+                        "y": 76.2
+                    },
+                    "uuid": "e1cff488-5209-4a96-b4e6-2acae884d17b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "'R_2512_6332Metric' ayak izi, 'Resistor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor",
+            "items": [
+                {
+                    "description": "Ayak İzi R2",
+                    "pos": {
+                        "x": 63.5,
+                        "y": 54.3
+                    },
+                    "uuid": "e38e5d74-0b18-405c-a749-a21a1b550cb8"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "'R_0805_2012Metric' ayak izi, 'Resistor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor",
+            "items": [
+                {
+                    "description": "Ayak İzi R19",
+                    "pos": {
+                        "x": 104.6,
+                        "y": 84.7
+                    },
+                    "uuid": "e53a0837-f54d-4a1f-9765-2f295cf736a1"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "'C_0805_2012Metric' ayak izi, 'Capacitor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor",
+            "items": [
+                {
+                    "description": "Ayak İzi C15",
+                    "pos": {
+                        "x": 107.0,
+                        "y": 59.0
+                    },
+                    "uuid": "e8c1be79-ca19-485f-8be1-822deb709468"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "'R_0805_2012Metric' ayak izi, 'Resistor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor",
+            "items": [
+                {
+                    "description": "Ayak İzi R27",
+                    "pos": {
+                        "x": 112.8,
+                        "y": 96.8
+                    },
+                    "uuid": "e8e3e746-6f00-45cd-abf6-09c1442729b1"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "'C_1206_3216Metric' ayak izi, 'Capacitor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor",
+            "items": [
+                {
+                    "description": "Ayak İzi C33",
+                    "pos": {
+                        "x": 128.0,
+                        "y": 104.6
+                    },
+                    "uuid": "f064d56d-569f-4692-b4f6-0dd2e5425c70"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "'R_2512_6332Metric' ayak izi, 'Resistor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor",
+            "items": [
+                {
+                    "description": "Ayak İzi RSH1",
+                    "pos": {
+                        "x": 136.5,
+                        "y": 90.0
+                    },
+                    "uuid": "f706f9fb-e70a-4cd7-b5cd-4edb3e01854d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "'C_0805_2012Metric' ayak izi, 'Capacitor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor",
+            "items": [
+                {
+                    "description": "Ayak İzi C30",
+                    "pos": {
+                        "x": 120.5,
+                        "y": 89.0
+                    },
+                    "uuid": "f718e30a-6601-4202-9b4c-0dfa2cb70193"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "'R_0805_2012Metric' ayak izi, 'Resistor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor",
+            "items": [
+                {
+                    "description": "Ayak İzi R8",
+                    "pos": {
+                        "x": 102.2,
+                        "y": 84.7
+                    },
+                    "uuid": "f9c55890-f990-4df5-90e4-bfc5b0e23b8b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "'R_0805_2012Metric' ayak izi, 'Resistor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor",
+            "items": [
+                {
+                    "description": "Ayak İzi R12",
+                    "pos": {
+                        "x": 87.8,
+                        "y": 88.9
+                    },
+                    "uuid": "fa4ba571-11e0-47c4-9aad-e6d98acb2280"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "'C_1210_3225Metric' ayak izi, 'Capacitor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor",
+            "items": [
+                {
+                    "description": "Ayak İzi C4",
+                    "pos": {
+                        "x": 89.0,
+                        "y": 67.6
+                    },
+                    "uuid": "fbd1bd2c-d79a-48da-bfb2-3de84ee284ca"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "'C_0805_2012Metric' ayak izi, 'Capacitor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor",
+            "items": [
+                {
+                    "description": "Ayak İzi C17",
+                    "pos": {
+                        "x": 87.8,
+                        "y": 84.7
+                    },
+                    "uuid": "fbf0758d-d654-4fe7-bb98-0ebb2dd3cc3e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        }
+    ]
+}

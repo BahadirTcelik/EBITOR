@@ -1,0 +1,1331 @@
+{
+ "title": "EE463 PCB Check",
+ "board": "ee463_dcdc",
+ "source": "C:\\Users\\OSMAN\\Desktop\\EE463\\kicad\\ee463_dcdc.kicad_pcb",
+ "meta": {
+  "Board size": "100.0 x 70.0 mm",
+  "Copper layers": "4",
+  "Thickness": "1.6 mm",
+  "Copper": "1 oz",
+  "Parts": "104",
+  "Tracks / vias": "0 / 0",
+  "Checked for": "7.5 A out (overload)",
+  "KiCad file": "20221018"
+ },
+ "settings": {
+  "Checker": "pcbcheck 1.0.0",
+  "Project": "EE463 DC-DC converter: 20-48 V in, 12 V / 7.5 A out (overload bonus)",
+  "Fab limits": "PCBWay standard price (track/space 0.15 mm, drill 0.3 mm, 2 layers, 1.6 mm, 1 oz)",
+  "Config file": "C:\\Users\\OSMAN\\Desktop\\EE463\\kicad\\pcb_checker.json"
+ },
+ "verdict": "Not ready: 3 problem(s) must be fixed before you send the files.",
+ "counts": {
+  "error": 3,
+  "warning": 3,
+  "info": 4
+ },
+ "detected": [
+  {
+   "heading": "Parts",
+   "lines": [
+    "Topology guess: synchronous buck (two switches on the switch node)",
+    "Power switches (MOSFETs): Q1, Q2, Q3",
+    "Power diodes: none found",
+    "Inductors / transformers: L1",
+    "Controller / driver ICs: U1",
+    "Power connectors: J1, J2",
+    "Input capacitors: C2, C3, C4, C5, C6, C7",
+    "Output capacitors: C9, C10, C11, C12, C13, C14",
+    "Current-sense shunts: R2, R3, R4, RS1, RSH1",
+    "Fuses: none found   TVS: none found",
+    "Test points: TP1, TP2, TP3, TP4, TP5, TP6, TP7, TP8, TP9, TP10, TP11, TP12, TP13, TP14, TP15, TP16, TP17, TP18, TP19, TP20, TP21"
+   ]
+  },
+  {
+   "heading": "Nets",
+   "lines": [
+    "Input side (up to 48 V, ~5.3 A): VIN",
+    "Switch node(s) (up to ~60 V peak): SW",
+    "Output side (12 V, 7.5 A): VOUT, VOUT_C",
+    "Ground: GND",
+    "Other high-current nets (checked as up to 48 V, 7.5 A): SENSE_P, SNS_P, VIN_RTN"
+   ]
+  },
+  {
+   "heading": "Gate drive and control",
+   "lines": [
+    "Q2 gate (BG_G) <- U1 pin 24 through R6",
+    "Q1 gate (TG_G) <- U1 pin 20 through R5",
+    "Q3 gate (RP_GATE) <- no driver IC found",
+    "Bootstrap capacitor C22 (470 nF) -> U1 pin 22",
+    "Feedback: U1 pin 6 (VFB) with R14, R13"
+   ]
+  }
+ ],
+ "checks": [
+  {
+   "id": "FAB-STACKUP",
+   "category": "fab",
+   "title": "Layers, thickness and copper weight",
+   "status": "warning",
+   "skipped": "",
+   "findings": [
+    {
+     "check": "FAB-STACKUP",
+     "severity": "warning",
+     "title": "Layers, thickness and copper weight",
+     "message": "The board has 4 copper layers. PCBWay's standard price is for 2 layers; 4 layers cost extra and may not be covered by the sponsored round.",
+     "fix": "Ask the course staff before ordering more than 2 layers, or move the design to 2 layers.",
+     "rule": "PCBWay standard price",
+     "refs": [],
+     "waived": "",
+     "locations": []
+    }
+   ]
+  },
+  {
+   "id": "FAB-OUTLINE",
+   "category": "fab",
+   "title": "Board outline (Edge.Cuts)",
+   "status": "pass",
+   "skipped": "",
+   "findings": []
+  },
+  {
+   "id": "FAB-ZONES",
+   "category": "fab",
+   "title": "Copper pours filled",
+   "status": "pass",
+   "skipped": "",
+   "findings": []
+  },
+  {
+   "id": "FAB-TRACK",
+   "category": "fab",
+   "title": "Minimum track width",
+   "status": "pass",
+   "skipped": "",
+   "findings": []
+  },
+  {
+   "id": "FAB-CLEAR",
+   "category": "fab",
+   "title": "Copper-to-copper spacing",
+   "status": "pass",
+   "skipped": "",
+   "findings": []
+  },
+  {
+   "id": "FAB-DRILL",
+   "category": "fab",
+   "title": "Drill sizes and via types",
+   "status": "pass",
+   "skipped": "",
+   "findings": []
+  },
+  {
+   "id": "FAB-RING",
+   "category": "fab",
+   "title": "Annular rings",
+   "status": "pass",
+   "skipped": "",
+   "findings": []
+  },
+  {
+   "id": "FAB-SLOT",
+   "category": "fab",
+   "title": "Slot widths",
+   "status": "pass",
+   "skipped": "",
+   "findings": []
+  },
+  {
+   "id": "FAB-HOLES",
+   "category": "fab",
+   "title": "Hole-to-hole spacing",
+   "status": "pass",
+   "skipped": "",
+   "findings": []
+  },
+  {
+   "id": "FAB-EDGE",
+   "category": "fab",
+   "title": "Copper to board edge",
+   "status": "pass",
+   "skipped": "",
+   "findings": []
+  },
+  {
+   "id": "FAB-SILK",
+   "category": "fab",
+   "title": "Silkscreen text size",
+   "status": "pass",
+   "skipped": "",
+   "findings": []
+  },
+  {
+   "id": "PWR-FOUND",
+   "category": "power",
+   "title": "Power stage recognised",
+   "status": "pass",
+   "skipped": "",
+   "findings": []
+  },
+  {
+   "id": "PWR-WIDTH",
+   "category": "power",
+   "title": "Power track width for the rated current",
+   "status": "pass",
+   "skipped": "",
+   "findings": []
+  },
+  {
+   "id": "PWR-VIAS",
+   "category": "power",
+   "title": "Vias where the power path changes layer",
+   "status": "pass",
+   "skipped": "",
+   "findings": []
+  },
+  {
+   "id": "PWR-SPACING",
+   "category": "power",
+   "title": "Spacing for 48 V (exposed pads)",
+   "status": "pass",
+   "skipped": "",
+   "findings": []
+  },
+  {
+   "id": "PWR-CONN",
+   "category": "power",
+   "title": "Input/output connectors",
+   "status": "pass",
+   "skipped": "",
+   "findings": []
+  },
+  {
+   "id": "PWR-CAPV",
+   "category": "power",
+   "title": "Capacitor voltage ratings",
+   "status": "pass",
+   "skipped": "",
+   "findings": []
+  },
+  {
+   "id": "PWR-LOOP",
+   "category": "power",
+   "title": "Hot loop: input capacitor at the switches",
+   "status": "pass",
+   "skipped": "",
+   "findings": []
+  },
+  {
+   "id": "PWR-GATE",
+   "category": "power",
+   "title": "Gate driver close to the MOSFETs",
+   "status": "pass",
+   "skipped": "",
+   "findings": []
+  },
+  {
+   "id": "PWR-BOOT",
+   "category": "power",
+   "title": "Bootstrap capacitor at the driver",
+   "status": "pass",
+   "skipped": "",
+   "findings": []
+  },
+  {
+   "id": "PWR-FB",
+   "category": "power",
+   "title": "Feedback divider and feedback routing",
+   "status": "pass",
+   "skipped": "",
+   "findings": []
+  },
+  {
+   "id": "PWR-MAG",
+   "category": "power",
+   "title": "No tracks under inductors and transformers",
+   "status": "pass",
+   "skipped": "",
+   "findings": []
+  },
+  {
+   "id": "PWR-THERMAL",
+   "category": "power",
+   "title": "Copper for cooling the power parts",
+   "status": "info",
+   "skipped": "",
+   "findings": [
+    {
+     "check": "PWR-THERMAL",
+     "severity": "info",
+     "title": "Copper for cooling the power parts",
+     "message": "No thermal vias at Q2 pad 5. Vias under/next to the pad move heat to the other layer.",
+     "fix": "Add 0.3 mm vias at about 1-1.2 mm pitch in or next to the pad.",
+     "rule": "THM-001/007",
+     "refs": [
+      "Q2"
+     ],
+     "waived": "",
+     "locations": [
+      {
+       "x": 102.5,
+       "y": 65.05,
+       "layer": "F.Cu",
+       "label": "Q2"
+      }
+     ]
+    },
+    {
+     "check": "PWR-THERMAL",
+     "severity": "info",
+     "title": "Copper for cooling the power parts",
+     "message": "No thermal vias at Q1 pad 5. Vias under/next to the pad move heat to the other layer.",
+     "fix": "Add 0.3 mm vias at about 1-1.2 mm pitch in or next to the pad.",
+     "rule": "THM-001/007",
+     "refs": [
+      "Q1"
+     ],
+     "waived": "",
+     "locations": [
+      {
+       "x": 94.5,
+       "y": 62.95,
+       "layer": "F.Cu",
+       "label": "Q1"
+      }
+     ]
+    },
+    {
+     "check": "PWR-THERMAL",
+     "severity": "info",
+     "title": "Copper for cooling the power parts",
+     "message": "No thermal vias at Q3 pad 5. Vias under/next to the pad move heat to the other layer.",
+     "fix": "Add 0.3 mm vias at about 1-1.2 mm pitch in or next to the pad.",
+     "rule": "THM-001/007",
+     "refs": [
+      "Q3"
+     ],
+     "waived": "",
+     "locations": [
+      {
+       "x": 64.95,
+       "y": 46.3,
+       "layer": "F.Cu",
+       "label": "Q3"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "PWR-GND",
+   "category": "power",
+   "title": "Ground pour",
+   "status": "pass",
+   "skipped": "",
+   "findings": []
+  },
+  {
+   "id": "LAY-DECAP",
+   "category": "layout",
+   "title": "Decoupling capacitors at IC supply pins",
+   "status": "pass",
+   "skipped": "",
+   "findings": []
+  },
+  {
+   "id": "LAY-ACUTE",
+   "category": "layout",
+   "title": "No acute track angles",
+   "status": "pass",
+   "skipped": "",
+   "findings": []
+  },
+  {
+   "id": "LAY-CORNER",
+   "category": "layout",
+   "title": "Track corners at 45\u00b0",
+   "status": "pass",
+   "skipped": "",
+   "findings": []
+  },
+  {
+   "id": "LAY-DANGLE",
+   "category": "layout",
+   "title": "No dangling track ends",
+   "status": "pass",
+   "skipped": "",
+   "findings": []
+  },
+  {
+   "id": "LAY-VIAPAD",
+   "category": "layout",
+   "title": "No open vias in SMD pads",
+   "status": "pass",
+   "skipped": "",
+   "findings": []
+  },
+  {
+   "id": "TST-POINTS",
+   "category": "test",
+   "title": "Test points (EE463: verify supplies and gate signals)",
+   "status": "warning",
+   "skipped": "",
+   "findings": [
+    {
+     "check": "TST-POINTS",
+     "severity": "warning",
+     "title": "Test points (EE463: verify supplies and gate signals)",
+     "message": "No test point on the auxiliary supply LDO_IN.",
+     "fix": "Add a test point so you can check this supply before turning on the power stage.",
+     "rule": "TST-001",
+     "refs": [
+      "LDO_IN"
+     ],
+     "waived": "",
+     "locations": []
+    },
+    {
+     "check": "TST-POINTS",
+     "severity": "warning",
+     "title": "Test points (EE463: verify supplies and gate signals)",
+     "message": "No test point on the auxiliary supply VIN_IC.",
+     "fix": "Add a test point so you can check this supply before turning on the power stage.",
+     "rule": "TST-001",
+     "refs": [
+      "VIN_IC"
+     ],
+     "waived": "",
+     "locations": []
+    }
+   ]
+  },
+  {
+   "id": "TST-INFO",
+   "category": "test",
+   "title": "Board identification on the silkscreen",
+   "status": "pass",
+   "skipped": "",
+   "findings": []
+  },
+  {
+   "id": "ASM-SPACING",
+   "category": "test",
+   "title": "Room between parts for hand soldering",
+   "status": "pass",
+   "skipped": "",
+   "findings": []
+  },
+  {
+   "id": "ASM-SMALL",
+   "category": "test",
+   "title": "Part sizes you can hand-solder",
+   "status": "pass",
+   "skipped": "",
+   "findings": []
+  },
+  {
+   "id": "MEC-HOLES",
+   "category": "test",
+   "title": "Mounting holes",
+   "status": "pass",
+   "skipped": "",
+   "findings": []
+  },
+  {
+   "id": "DRC",
+   "category": "drc",
+   "title": "KiCad design rules check (DRC)",
+   "status": "error",
+   "skipped": "",
+   "findings": [
+    {
+     "check": "DRC",
+     "severity": "error",
+     "title": "KiCad DRC: B\u00f6lgeye termal r\u00f6lyef ba\u011flant\u0131s\u0131 eksik (katman B.Cu; b\u00f6lge ba\u011flant\u0131 kolu say\u0131s\u0131 2; ger\u00e7ek 1)",
+     "message": "16 x B\u00f6lgeye termal r\u00f6lyef ba\u011flant\u0131s\u0131 eksik (katman B.Cu; b\u00f6lge ba\u011flant\u0131 kolu say\u0131s\u0131 2; ger\u00e7ek 1) (starved_thermal)",
+     "fix": "A pad connects to a pour with too few thermal spokes.",
+     "rule": "KiCad",
+     "refs": [],
+     "waived": "",
+     "locations": [
+      {
+       "x": 50.7,
+       "y": 43.0,
+       "layer": "",
+       "label": "B\u00f6lge [GND] B.Cu \u00fczerinde, \u00f6ncelik 0 / 39'in Delik \u0130\u00e7i Kaplamal\u0131 Ge\u00e7it pedi [GND] U1"
+      },
+      {
+       "x": 50.7,
+       "y": 43.0,
+       "layer": "",
+       "label": "B\u00f6lge [GND] B.Cu \u00fczerinde, \u00f6ncelik 0 / 39'in Delik \u0130\u00e7i Kaplamal\u0131 Ge\u00e7it pedi [GND] U1"
+      },
+      {
+       "x": 50.7,
+       "y": 43.0,
+       "layer": "",
+       "label": "B\u00f6lge [GND] B.Cu \u00fczerinde, \u00f6ncelik 0 / 39'in Delik \u0130\u00e7i Kaplamal\u0131 Ge\u00e7it pedi [GND] U1"
+      },
+      {
+       "x": 50.7,
+       "y": 43.0,
+       "layer": "",
+       "label": "B\u00f6lge [GND] B.Cu \u00fczerinde, \u00f6ncelik 0 / 39'in Delik \u0130\u00e7i Kaplamal\u0131 Ge\u00e7it pedi [GND] U1"
+      },
+      {
+       "x": 50.7,
+       "y": 43.0,
+       "layer": "",
+       "label": "B\u00f6lge [GND] B.Cu \u00fczerinde, \u00f6ncelik 0 / 39'in Delik \u0130\u00e7i Kaplamal\u0131 Ge\u00e7it pedi [GND] U1"
+      },
+      {
+       "x": 50.7,
+       "y": 43.0,
+       "layer": "",
+       "label": "B\u00f6lge [GND] B.Cu \u00fczerinde, \u00f6ncelik 0 / 39'in Delik \u0130\u00e7i Kaplamal\u0131 Ge\u00e7it pedi [GND] U1"
+      },
+      {
+       "x": 50.7,
+       "y": 43.0,
+       "layer": "",
+       "label": "B\u00f6lge [GND] F.Cu \u00fczerinde, \u00f6ncelik 0 / 9 i\u00e7in [GND] U1 ayak F.Cu"
+      },
+      {
+       "x": 50.7,
+       "y": 43.0,
+       "layer": "",
+       "label": "B\u00f6lge [GND] F.Cu \u00fczerinde, \u00f6ncelik 0 / 12 i\u00e7in [GND] U1 ayak F.Cu"
+      },
+      {
+       "x": 50.7,
+       "y": 43.0,
+       "layer": "",
+       "label": "B\u00f6lge [GND] F.Cu \u00fczerinde, \u00f6ncelik 0 / 13 i\u00e7in [GND] U1 ayak F.Cu"
+      },
+      {
+       "x": 50.7,
+       "y": 43.0,
+       "layer": "",
+       "label": "B\u00f6lge [GND] F.Cu \u00fczerinde, \u00f6ncelik 0 / 15 i\u00e7in [GND] U1 ayak F.Cu"
+      },
+      {
+       "x": 50.7,
+       "y": 43.0,
+       "layer": "",
+       "label": "B\u00f6lge [GND] F.Cu \u00fczerinde, \u00f6ncelik 0 / 39'in Delik \u0130\u00e7i Kaplamal\u0131 Ge\u00e7it pedi [GND] U1"
+      },
+      {
+       "x": 50.7,
+       "y": 43.0,
+       "layer": "",
+       "label": "B\u00f6lge [GND] F.Cu \u00fczerinde, \u00f6ncelik 0 / 39'in Delik \u0130\u00e7i Kaplamal\u0131 Ge\u00e7it pedi [GND] U1"
+      },
+      {
+       "x": 50.7,
+       "y": 43.0,
+       "layer": "",
+       "label": "B\u00f6lge [GND] F.Cu \u00fczerinde, \u00f6ncelik 0 / 39'in Delik \u0130\u00e7i Kaplamal\u0131 Ge\u00e7it pedi [GND] U1"
+      },
+      {
+       "x": 50.7,
+       "y": 43.0,
+       "layer": "",
+       "label": "B\u00f6lge [GND] F.Cu \u00fczerinde, \u00f6ncelik 0 / 39'in Delik \u0130\u00e7i Kaplamal\u0131 Ge\u00e7it pedi [GND] U1"
+      },
+      {
+       "x": 50.7,
+       "y": 43.0,
+       "layer": "",
+       "label": "B\u00f6lge [GND] F.Cu \u00fczerinde, \u00f6ncelik 0 / 39'in Delik \u0130\u00e7i Kaplamal\u0131 Ge\u00e7it pedi [GND] U1"
+      },
+      {
+       "x": 50.7,
+       "y": 43.0,
+       "layer": "",
+       "label": "B\u00f6lge [GND] F.Cu \u00fczerinde, \u00f6ncelik 0 / 39'in Delik \u0130\u00e7i Kaplamal\u0131 Ge\u00e7it pedi [GND] U1"
+      }
+     ]
+    },
+    {
+     "check": "DRC",
+     "severity": "info",
+     "title": "KiCad DRC: 'R_0805_2012Metric' ayak izi, 'Resistor_SMD' k\u00fct\u00fcphanesindeki kopyas\u0131yla e\u015fle\u015fmiyor",
+     "message": "67 x 'R_0805_2012Metric' ayak izi, 'Resistor_SMD' k\u00fct\u00fcphanesindeki kopyas\u0131yla e\u015fle\u015fmiyor (lib_footprint_mismatch)",
+     "fix": "The footprint differs from the library. Usually harmless; update it if you changed the library.",
+     "rule": "KiCad",
+     "refs": [],
+     "waived": "",
+     "locations": [
+      {
+       "x": 125.0,
+       "y": 93.45,
+       "layer": "",
+       "label": "Ayak \u0130zi R23"
+      },
+      {
+       "x": 73.4,
+       "y": 70.3,
+       "layer": "",
+       "label": "Ayak \u0130zi R21"
+      },
+      {
+       "x": 92.6,
+       "y": 88.9,
+       "layer": "",
+       "label": "Ayak \u0130zi R18"
+      },
+      {
+       "x": 105.4,
+       "y": 72.6,
+       "layer": "",
+       "label": "Ayak \u0130zi R5"
+      },
+      {
+       "x": 90.2,
+       "y": 88.9,
+       "layer": "",
+       "label": "Ayak \u0130zi R20"
+      },
+      {
+       "x": 124.0,
+       "y": 98.6,
+       "layer": "",
+       "label": "Ayak \u0130zi C32"
+      },
+      {
+       "x": 114.5,
+       "y": 102.6,
+       "layer": "",
+       "label": "Ayak \u0130zi RV1"
+      },
+      {
+       "x": 98.5,
+       "y": 57.9,
+       "layer": "",
+       "label": "Ayak \u0130zi C2"
+      },
+      {
+       "x": 120.5,
+       "y": 92.5,
+       "layer": "",
+       "label": "Ayak \u0130zi U3"
+      },
+      {
+       "x": 105.3,
+       "y": 100.5,
+       "layer": "",
+       "label": "Ayak \u0130zi R28"
+      },
+      {
+       "x": 99.8,
+       "y": 84.7,
+       "layer": "",
+       "label": "Ayak \u0130zi C20"
+      },
+      {
+       "x": 95.0,
+       "y": 84.7,
+       "layer": "",
+       "label": "Ayak \u0130zi R14"
+      },
+      {
+       "x": 67.6,
+       "y": 54.3,
+       "layer": "",
+       "label": "Ayak \u0130zi R3"
+      },
+      {
+       "x": 88.6,
+       "y": 72.6,
+       "layer": "",
+       "label": "Ayak \u0130zi C16"
+      },
+      {
+       "x": 116.6,
+       "y": 93.45,
+       "layer": "",
+       "label": "Ayak \u0130zi C31"
+      },
+      {
+       "x": 124.0,
+       "y": 102.8,
+       "layer": "",
+       "label": "Ayak \u0130zi R29"
+      },
+      {
+       "x": 116.0,
+       "y": 96.8,
+       "layer": "",
+       "label": "Ayak \u0130zi U4"
+      },
+      {
+       "x": 107.0,
+       "y": 63.3,
+       "layer": "",
+       "label": "Ayak \u0130zi R7"
+      },
+      {
+       "x": 85.5,
+       "y": 67.6,
+       "layer": "",
+       "label": "Ayak \u0130zi C5"
+      },
+      {
+       "x": 75.8,
+       "y": 70.3,
+       "layer": "",
+       "label": "Ayak \u0130zi R9"
+      },
+      {
+       "x": 95.8,
+       "y": 72.6,
+       "layer": "",
+       "label": "Ayak \u0130zi C26"
+      },
+      {
+       "x": 98.5,
+       "y": 54.6,
+       "layer": "",
+       "label": "Ayak \u0130zi C3"
+      },
+      {
+       "x": 124.6,
+       "y": 90.9,
+       "layer": "",
+       "label": "Ayak \u0130zi C29"
+      },
+      {
+       "x": 93.4,
+       "y": 72.6,
+       "layer": "",
+       "label": "Ayak \u0130zi C27"
+      },
+      {
+       "x": 107.0,
+       "y": 84.7,
+       "layer": "",
+       "label": "Ayak \u0130zi R17"
+      },
+      {
+       "x": 141.7,
+       "y": 71.4,
+       "layer": "",
+       "label": "Ayak \u0130zi C12"
+      },
+      {
+       "x": 82.0,
+       "y": 67.6,
+       "layer": "",
+       "label": "Ayak \u0130zi C6"
+      },
+      {
+       "x": 97.4,
+       "y": 84.7,
+       "layer": "",
+       "label": "Ayak \u0130zi R13"
+      },
+      {
+       "x": 78.0,
+       "y": 48.3,
+       "layer": "",
+       "label": "Ayak \u0130zi R1"
+      },
+      {
+       "x": 90.2,
+       "y": 84.7,
+       "layer": "",
+       "label": "Ayak \u0130zi R11"
+      },
+      {
+       "x": 78.5,
+       "y": 67.6,
+       "layer": "",
+       "label": "Ayak \u0130zi C7"
+      },
+      {
+       "x": 92.6,
+       "y": 84.7,
+       "layer": "",
+       "label": "Ayak \u0130zi C21"
+      },
+      {
+       "x": 72.5,
+       "y": 44.4,
+       "layer": "",
+       "label": "Ayak \u0130zi C1"
+      },
+      {
+       "x": 95.0,
+       "y": 88.9,
+       "layer": "",
+       "label": "Ayak \u0130zi C18"
+      },
+      {
+       "x": 91.0,
+       "y": 72.6,
+       "layer": "",
+       "label": "Ayak \u0130zi C25"
+      },
+      {
+       "x": 87.6,
+       "y": 78.7,
+       "layer": "",
+       "label": "Ayak \u0130zi C23"
+      },
+      {
+       "x": 99.8,
+       "y": 88.9,
+       "layer": "",
+       "label": "Ayak \u0130zi R16"
+      },
+      {
+       "x": 102.2,
+       "y": 88.9,
+       "layer": "",
+       "label": "Ayak \u0130zi C19"
+      },
+      {
+       "x": 119.5,
+       "y": 68.2,
+       "layer": "",
+       "label": "Ayak \u0130zi L1"
+      },
+      {
+       "x": 97.4,
+       "y": 88.9,
+       "layer": "",
+       "label": "Ayak \u0130zi R15"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "DRC-UNROUTED",
+   "category": "drc",
+   "title": "Everything routed",
+   "status": "error",
+   "skipped": "",
+   "findings": [
+    {
+     "check": "DRC-UNROUTED",
+     "severity": "error",
+     "title": "Everything routed",
+     "message": "98 connection(s) are not routed yet (ratsnest lines left).",
+     "fix": "Route them, or check that the zones are filled (B) if they should connect through a pour.",
+     "rule": "EST-008",
+     "refs": [],
+     "waived": "",
+     "locations": [
+      {
+       "x": 71.35,
+       "y": 47.4,
+       "layer": "",
+       "label": "1 i\u00e7in [RP_GATE] D3 ayak F.Cu / 1 i\u00e7in [RP_GATE] C1 ayak F.Cu"
+      },
+      {
+       "x": 71.35,
+       "y": 47.4,
+       "layer": "",
+       "label": "1 i\u00e7in [RP_GATE] D3 ayak F.Cu / 2 i\u00e7in [RP_GATE] R1 ayak F.Cu"
+      },
+      {
+       "x": 71.55,
+       "y": 44.4,
+       "layer": "",
+       "label": "1 i\u00e7in [RP_GATE] C1 ayak F.Cu / 4 i\u00e7in [RP_GATE] Q3 ayak F.Cu"
+      },
+      {
+       "x": 50.7,
+       "y": 43.0,
+       "layer": "",
+       "label": "B\u00f6lge [GND] F.Cu \u00fczerinde, \u00f6ncelik 0 / 36 i\u00e7in [GND] U1 ayak F.Cu"
+      },
+      {
+       "x": 96.5,
+       "y": 81.475,
+       "layer": "",
+       "label": "9 i\u00e7in [GND] U1 ayak F.Cu / 10 i\u00e7in [GND] U1 ayak F.Cu"
+      },
+      {
+       "x": 50.7,
+       "y": 43.0,
+       "layer": "",
+       "label": "B\u00f6lge [GND] F.Cu \u00fczerinde, \u00f6ncelik 0 / 10 i\u00e7in [GND] U1 ayak F.Cu"
+      },
+      {
+       "x": 97.0,
+       "y": 81.475,
+       "layer": "",
+       "label": "10 i\u00e7in [GND] U1 ayak F.Cu / 12 i\u00e7in [GND] U1 ayak F.Cu"
+      },
+      {
+       "x": 98.0,
+       "y": 81.475,
+       "layer": "",
+       "label": "12 i\u00e7in [GND] U1 ayak F.Cu / 13 i\u00e7in [GND] U1 ayak F.Cu"
+      },
+      {
+       "x": 99.5,
+       "y": 81.475,
+       "layer": "",
+       "label": "15 i\u00e7in [GND] U1 ayak F.Cu / 13 i\u00e7in [GND] U1 ayak F.Cu"
+      },
+      {
+       "x": 62.538,
+       "y": 76.2,
+       "layer": "",
+       "label": "1 i\u00e7in [CBULK_N] R4 ayak F.Cu / 2'in Delik \u0130\u00e7i Kaplamal\u0131 Ge\u00e7it pedi [CBULK_N] C8"
+      },
+      {
+       "x": 83.8,
+       "y": 73.513,
+       "layer": "",
+       "label": "1 i\u00e7in [VOUT_C] R22 ayak F.Cu / 4 i\u00e7in [VOUT_C] U1 ayak F.Cu"
+      },
+      {
+       "x": 92.6,
+       "y": 85.65,
+       "layer": "",
+       "label": "2 i\u00e7in [VOUT_C] C21 ayak F.Cu / 4 i\u00e7in [VOUT_C] U1 ayak F.Cu"
+      },
+      {
+       "x": 94.0,
+       "y": 81.475,
+       "layer": "",
+       "label": "4 i\u00e7in [VOUT_C] U1 ayak F.Cu / 3 i\u00e7in [VOUT_C] U2 ayak F.Cu"
+      },
+      {
+       "x": 131.438,
+       "y": 89.55,
+       "layer": "",
+       "label": "3 i\u00e7in [VOUT_C] U2 ayak F.Cu / B\u00f6lge [VOUT_C] F.Cu \u00fczerinde, \u00f6ncelik 2"
+      },
+      {
+       "x": 107.0,
+       "y": 59.95,
+       "layer": "",
+       "label": "1 i\u00e7in [SNUB] C15 ayak F.Cu / 2 i\u00e7in [SNUB] R7 ayak F.Cu"
+      },
+      {
+       "x": 88.6,
+       "y": 73.55,
+       "layer": "",
+       "label": "1 i\u00e7in [RUN] C16 ayak F.Cu / 1 i\u00e7in [RUN] R10 ayak F.Cu"
+      },
+      {
+       "x": 88.6,
+       "y": 73.55,
+       "layer": "",
+       "label": "1 i\u00e7in [RUN] C16 ayak F.Cu / 2 i\u00e7in [RUN] R9 ayak F.Cu"
+      },
+      {
+       "x": 90.2,
+       "y": 77.787,
+       "layer": "",
+       "label": "1 i\u00e7in [RUN] R10 ayak F.Cu / 34 i\u00e7in [RUN] U1 ayak F.Cu"
+      },
+      {
+       "x": 80.0,
+       "y": 105.5,
+       "layer": "",
+       "label": "1'in Delik \u0130\u00e7i Kaplamal\u0131 Ge\u00e7it pedi [SS] TP16 / 2 i\u00e7in [SS] R12 ayak F.Cu"
+      },
+      {
+       "x": 87.8,
+       "y": 83.75,
+       "layer": "",
+       "label": "1 i\u00e7in [SS] C17 ayak F.Cu / 2 i\u00e7in [SS] R12 ayak F.Cu"
+      },
+      {
+       "x": 94.5,
+       "y": 81.475,
+       "layer": "",
+       "label": "5 i\u00e7in [SS] U1 ayak F.Cu / 1 i\u00e7in [SS] C17 ayak F.Cu"
+      },
+      {
+       "x": 95.0,
+       "y": 89.85,
+       "layer": "",
+       "label": "1 i\u00e7in [FB_TOP] C18 ayak F.Cu / 2 i\u00e7in [FB_TOP] R15 ayak F.Cu"
+      },
+      {
+       "x": 95.0,
+       "y": 89.85,
+       "layer": "",
+       "label": "1 i\u00e7in [FB_TOP] C18 ayak F.Cu / 1'in Delik \u0130\u00e7i Kaplamal\u0131 Ge\u00e7it pedi [FB_TOP] TP17"
+      },
+      {
+       "x": 97.4,
+       "y": 87.987,
+       "layer": "",
+       "label": "2 i\u00e7in [FB_TOP] R15 ayak F.Cu / 1 i\u00e7in [FB_TOP] R13 ayak F.Cu"
+      },
+      {
+       "x": 95.0,
+       "y": 81.475,
+       "layer": "",
+       "label": "6 i\u00e7in [VFB] U1 ayak F.Cu / 1 i\u00e7in [VFB] R14 ayak F.Cu"
+      },
+      {
+       "x": 95.0,
+       "y": 83.787,
+       "layer": "",
+       "label": "1 i\u00e7in [VFB] R14 ayak F.Cu / 2 i\u00e7in [VFB] R13 ayak F.Cu"
+      },
+      {
+       "x": 95.0,
+       "y": 83.787,
+       "layer": "",
+       "label": "1 i\u00e7in [VFB] R14 ayak F.Cu / 2 i\u00e7in [VFB] C18 ayak F.Cu"
+      },
+      {
+       "x": 99.8,
+       "y": 89.812,
+       "layer": "",
+       "label": "2 i\u00e7in [ITH_RC] R16 ayak F.Cu / 1 i\u00e7in [ITH_RC] C19 ayak F.Cu"
+      },
+      {
+       "x": 93.5,
+       "y": 105.5,
+       "layer": "",
+       "label": "1'in Delik \u0130\u00e7i Kaplamal\u0131 Ge\u00e7it pedi [ITH] TP14 / 1 i\u00e7in [ITH] R16 ayak F.Cu"
+      },
+      {
+       "x": 99.8,
+       "y": 83.75,
+       "layer": "",
+       "label": "1 i\u00e7in [ITH] C20 ayak F.Cu / 1 i\u00e7in [ITH] R16 ayak F.Cu"
+      },
+      {
+       "x": 99.8,
+       "y": 83.75,
+       "layer": "",
+       "label": "1 i\u00e7in [ITH] C20 ayak F.Cu / 7 i\u00e7in [ITH] U1 ayak F.Cu"
+      },
+      {
+       "x": 99.8,
+       "y": 87.987,
+       "layer": "",
+       "label": "1 i\u00e7in [ITH] R16 ayak F.Cu / 1 i\u00e7in [ITH] R25 ayak F.Cu"
+      },
+      {
+       "x": 90.2,
+       "y": 87.987,
+       "layer": "",
+       "label": "2 i\u00e7in [SENSE_P] R20 ayak F.Cu / 1 i\u00e7in [SENSE_P] C21 ayak F.Cu"
+      },
+      {
+       "x": 92.6,
+       "y": 83.75,
+       "layer": "",
+       "label": "1 i\u00e7in [SENSE_P] C21 ayak F.Cu / 3 i\u00e7in [SENSE_P] U1 ayak F.Cu"
+      },
+      {
+       "x": 100.5,
+       "y": 75.925,
+       "layer": "",
+       "label": "22 i\u00e7in [BOOST] U1 ayak F.Cu / 1 i\u00e7in [BOOST] C22 ayak F.Cu"
+      },
+      {
+       "x": 101.0,
+       "y": 75.925,
+       "layer": "",
+       "label": "21 i\u00e7in [SW] U1 ayak F.Cu / 2 i\u00e7in [SW] C22 ayak F.Cu"
+      },
+      {
+       "x": 103.0,
+       "y": 71.65,
+       "layer": "",
+       "label": "2 i\u00e7in [SW] C22 ayak F.Cu / B\u00f6lge [SW] F.Cu \u00fczerinde, \u00f6ncelik 2"
+      },
+      {
+       "x": 87.6,
+       "y": 80.175,
+       "layer": "",
+       "label": "1 i\u00e7in [DRVCC] C23 ayak F.Cu / 28 i\u00e7in [DRVCC] U1 ayak F.Cu"
+      },
+      {
+       "x": 87.6,
+       "y": 80.175,
+       "layer": "",
+       "label": "1 i\u00e7in [DRVCC] C23 ayak F.Cu / 1'in Delik \u0130\u00e7i Kaplamal\u0131 Ge\u00e7it pedi [DRVCC] TP11"
+      },
+      {
+       "x": 97.5,
+       "y": 75.925,
+       "layer": "",
+       "label": "28 i\u00e7in [DRVCC] U1 ayak F.Cu / 26 i\u00e7in [DRVCC] U1 ayak F.Cu"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "DRC-PARITY",
+   "category": "drc",
+   "title": "Board matches the schematic",
+   "status": "error",
+   "skipped": "",
+   "findings": [
+    {
+     "check": "DRC-PARITY",
+     "severity": "error",
+     "title": "Board matches the schematic",
+     "message": "110 difference(s) between the board and the schematic.",
+     "fix": "Tools > Update PCB from Schematic (F8), then check again.",
+     "rule": "KiCad",
+     "refs": [],
+     "waived": "",
+     "locations": [
+      {
+       "x": 72.5,
+       "y": 44.4,
+       "layer": "",
+       "label": "Ayak izinde eksik sembol alan\u0131 'MPN'"
+      },
+      {
+       "x": 98.5,
+       "y": 57.9,
+       "layer": "",
+       "label": "Ayak izinde eksik sembol alan\u0131 'MPN'"
+      },
+      {
+       "x": 98.5,
+       "y": 54.6,
+       "layer": "",
+       "label": "Ayak izinde eksik sembol alan\u0131 'MPN'"
+      },
+      {
+       "x": 89.0,
+       "y": 67.6,
+       "layer": "",
+       "label": "Ayak izinde eksik sembol alan\u0131 'MPN'"
+      },
+      {
+       "x": 85.5,
+       "y": 67.6,
+       "layer": "",
+       "label": "Ayak izinde eksik sembol alan\u0131 'MPN'"
+      },
+      {
+       "x": 82.0,
+       "y": 67.6,
+       "layer": "",
+       "label": "Ayak izinde eksik sembol alan\u0131 'MPN'"
+      },
+      {
+       "x": 78.5,
+       "y": 67.6,
+       "layer": "",
+       "label": "Ayak izinde eksik sembol alan\u0131 'MPN'"
+      },
+      {
+       "x": 65.5,
+       "y": 64.5,
+       "layer": "",
+       "label": "Ayak izinde eksik sembol alan\u0131 'MPN'"
+      },
+      {
+       "x": 141.7,
+       "y": 61.5,
+       "layer": "",
+       "label": "Ayak izinde eksik sembol alan\u0131 'MPN'"
+      },
+      {
+       "x": 141.7,
+       "y": 64.8,
+       "layer": "",
+       "label": "Ayak izinde eksik sembol alan\u0131 'MPN'"
+      },
+      {
+       "x": 141.7,
+       "y": 68.1,
+       "layer": "",
+       "label": "Ayak izinde eksik sembol alan\u0131 'MPN'"
+      },
+      {
+       "x": 141.7,
+       "y": 71.4,
+       "layer": "",
+       "label": "Ayak izinde eksik sembol alan\u0131 'MPN'"
+      },
+      {
+       "x": 141.1,
+       "y": 77.5,
+       "layer": "",
+       "label": "Ayak izinde eksik sembol alan\u0131 'MPN'"
+      },
+      {
+       "x": 130.0,
+       "y": 83.2,
+       "layer": "",
+       "label": "Ayak izinde eksik sembol alan\u0131 'MPN'"
+      },
+      {
+       "x": 107.0,
+       "y": 59.0,
+       "layer": "",
+       "label": "Ayak izi nitelikleri sembolle e\u015fle\u015fmiyor: 'Yerle\u015ftirmeyin' ayarlar\u0131 farkl\u0131"
+      },
+      {
+       "x": 107.0,
+       "y": 59.0,
+       "layer": "",
+       "label": "Ayak izinde eksik sembol alan\u0131 'MPN'"
+      },
+      {
+       "x": 88.6,
+       "y": 72.6,
+       "layer": "",
+       "label": "Ayak izinde eksik sembol alan\u0131 'MPN'"
+      },
+      {
+       "x": 87.8,
+       "y": 84.7,
+       "layer": "",
+       "label": "Ayak izinde eksik sembol alan\u0131 'MPN'"
+      },
+      {
+       "x": 95.0,
+       "y": 88.9,
+       "layer": "",
+       "label": "Ayak izi nitelikleri sembolle e\u015fle\u015fmiyor: 'Yerle\u015ftirmeyin' ayarlar\u0131 farkl\u0131"
+      },
+      {
+       "x": 95.0,
+       "y": 88.9,
+       "layer": "",
+       "label": "Ayak izinde eksik sembol alan\u0131 'MPN'"
+      },
+      {
+       "x": 102.2,
+       "y": 88.9,
+       "layer": "",
+       "label": "Ayak izinde eksik sembol alan\u0131 'MPN'"
+      },
+      {
+       "x": 99.8,
+       "y": 84.7,
+       "layer": "",
+       "label": "Ayak izinde eksik sembol alan\u0131 'MPN'"
+      },
+      {
+       "x": 92.6,
+       "y": 84.7,
+       "layer": "",
+       "label": "Ayak izinde eksik sembol alan\u0131 'MPN'"
+      },
+      {
+       "x": 103.0,
+       "y": 72.6,
+       "layer": "",
+       "label": "Ayak izinde eksik sembol alan\u0131 'MPN'"
+      },
+      {
+       "x": 87.6,
+       "y": 78.7,
+       "layer": "",
+       "label": "Ayak izinde eksik sembol alan\u0131 'MPN'"
+      },
+      {
+       "x": 98.2,
+       "y": 72.6,
+       "layer": "",
+       "label": "Ayak izinde eksik sembol alan\u0131 'MPN'"
+      },
+      {
+       "x": 91.0,
+       "y": 72.6,
+       "layer": "",
+       "label": "Ayak izinde eksik sembol alan\u0131 'MPN'"
+      },
+      {
+       "x": 95.8,
+       "y": 72.6,
+       "layer": "",
+       "label": "Ayak izinde eksik sembol alan\u0131 'MPN'"
+      },
+      {
+       "x": 93.4,
+       "y": 72.6,
+       "layer": "",
+       "label": "Ayak izinde eksik sembol alan\u0131 'MPN'"
+      },
+      {
+       "x": 130.3,
+       "y": 93.6,
+       "layer": "",
+       "label": "Ayak izinde eksik sembol alan\u0131 'MPN'"
+      },
+      {
+       "x": 124.6,
+       "y": 90.9,
+       "layer": "",
+       "label": "Ayak izinde eksik sembol alan\u0131 'MPN'"
+      },
+      {
+       "x": 120.5,
+       "y": 89.0,
+       "layer": "",
+       "label": "Ayak izinde eksik sembol alan\u0131 'MPN'"
+      },
+      {
+       "x": 116.6,
+       "y": 93.45,
+       "layer": "",
+       "label": "Ayak izinde eksik sembol alan\u0131 'MPN'"
+      },
+      {
+       "x": 124.0,
+       "y": 98.6,
+       "layer": "",
+       "label": "Ayak izinde eksik sembol alan\u0131 'MPN'"
+      },
+      {
+       "x": 128.0,
+       "y": 104.6,
+       "layer": "",
+       "label": "Ayak izinde eksik sembol alan\u0131 'MPN'"
+      },
+      {
+       "x": 112.0,
+       "y": 88.9,
+       "layer": "",
+       "label": "Ayak izinde eksik sembol alan\u0131 'MPN'"
+      },
+      {
+       "x": 120.5,
+       "y": 86.4,
+       "layer": "",
+       "label": "Ayak izinde eksik sembol alan\u0131 'MPN'"
+      },
+      {
+       "x": 73.0,
+       "y": 47.4,
+       "layer": "",
+       "label": "Ayak izinde eksik sembol alan\u0131 'MPN'"
+      },
+      {
+       "x": 54.5,
+       "y": 44.5,
+       "layer": "",
+       "label": "Ayak izinde eksik sembol alan\u0131 'MPN'"
+      },
+      {
+       "x": 145.5,
+       "y": 44.5,
+       "layer": "",
+       "label": "Ayak izinde eksik sembol alan\u0131 'MPN'"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": []
+}

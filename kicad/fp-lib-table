@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "ee463")(type "KiCad")(uri "${KIPRJMOD}/ee463.pretty")(options "")(descr "EE463 project footprints"))
+)

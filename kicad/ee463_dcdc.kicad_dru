@@ -1,0 +1,5 @@
+(version 1)
+
+(rule "SW copper 0.5 mm from other nets (not at the U1 pins)"
+  (condition "A.NetName == 'SW' && A.Type != 'Pad' && !A.intersectsCourtyard('U1')")
+  (constraint clearance (min 0.5mm)))

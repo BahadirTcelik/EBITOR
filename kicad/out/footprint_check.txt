@@ -1,0 +1,20 @@
+Footprints looked up in C:\Program Files\KiCad\10.0\share\kicad\footprints and in ee463.pretty
+OK       Capacitor_SMD:CP_Elec_8x6.7
+OK       Capacitor_SMD:C_0805_2012Metric
+OK       Capacitor_SMD:C_1206_3216Metric
+OK       Capacitor_SMD:C_1210_3225Metric
+OK       Capacitor_THT:CP_Radial_D12.5mm_P5.00mm
+OK       Diode_SMD:D_SOD-123
+OK       Inductor_SMD:L_Wuerth_HCI-1890
+OK       MountingHole:MountingHole_3.2mm_M3
+OK       Package_TO_SOT_SMD:SOT-23
+OK       Package_TO_SOT_SMD:SOT-23-5
+OK       Package_TO_SOT_SMD:SOT-89-3
+OK       Package_TO_SOT_SMD:TDSON-8-1
+OK       Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical
+OK       Resistor_SMD:R_0805_2012Metric
+OK       Resistor_SMD:R_1206_3216Metric
+OK       Resistor_SMD:R_2512_6332Metric
+OK       TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal
+OK       TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm
+OK       ee463:LTC3895_TSSOP-38-31-1EP_4.4x9.7mm_P0.5mm_EP2.74x4.75mm_ThermalVias

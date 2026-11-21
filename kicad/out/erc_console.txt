@@ -1,0 +1,4 @@
+6 ihlal bulundu
+Elektriksel Kural Kontrolü Raporu out/erc.rpt'ye kaydedildi
+6 ihlal bulundu
+Elektriksel Kural Kontrolü Raporu out/erc.json'ye kaydedildi

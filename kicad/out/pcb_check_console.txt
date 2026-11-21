@@ -1,0 +1,13 @@
+Reading ee463_dcdc.kicad_pcb
+Running KiCad DRC (kicad-cli)...
+
+  Not ready: 3 problem(s) must be fixed before you send the files.
+  3 must fix, 3 should fix, 4 to check
+  [SHOULD FIX] Layers, thickness and copper weight: The board has 4 copper layers. PCBWay's standard price is for 2 layers; 4 layers cost extra and may not be covered by the sponsored round.
+  [SHOULD FIX] Test points (EE463: verify supplies and gate signals): No test point on the auxiliary supply LDO_IN.
+  [SHOULD FIX] Test points (EE463: verify supplies and gate signals): No test point on the auxiliary supply VIN_IC.
+  [MUST FIX  ] KiCad DRC: Bölgeye termal rölyef bağlantısı eksik (katman B.Cu; bölge bağlantı kolu sayısı 2; gerçek 1): 16 x Bölgeye termal rölyef bağlantısı eksik (katman B.Cu; bölge bağlantı kolu sayısı 2; gerçek 1) (starved_thermal)
+  [MUST FIX  ] Everything routed: 98 connection(s) are not routed yet (ratsnest lines left).
+  [MUST FIX  ] Board matches the schematic: 110 difference(s) between the board and the schematic.
+
+  Report: out\pcb_check.html  (8.1 s)

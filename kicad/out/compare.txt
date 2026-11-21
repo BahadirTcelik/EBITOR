@@ -1,0 +1,3 @@
+KiCad netlist: 104 parts, 227 pads, 41 nets
+pins.csv     : 100 parts with pins, 227 pads, 41 nets
+RESULT: netlist matches pins.csv
