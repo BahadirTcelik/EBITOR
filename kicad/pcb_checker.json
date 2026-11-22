@@ -17,5 +17,30 @@
     ]
   },
   "ignore": [],
-  "waivers": []
+  "waivers": [
+    {
+      "check": "FAB-STACKUP",
+      "reason": "4 copper layers: the sponsorship announcement (17 Nov 2026) allows up to 200 x 200 mm and up to 4 layers. In1.Cu is an unbroken GND plane, In2.Cu carries slow signals and a GND fill."
+    },
+    {
+      "check": "PWR-GATE",
+      "ref": "Q1",
+      "reason": "Driver-to-gate path U1 pin 20 -> R5 -> Q1 gate is 21.3 mm (TG 5.5 + TG_G 15.8). The remaining 12.7 mm is the stub to test point TP9, which carries no gate current."
+    },
+    {
+      "check": "TST-POINTS",
+      "ref": "VIN_IC",
+      "reason": "VIN_IC is VIN behind R21 (4.7 ohm). It is measured at C26 pad 1 or R21 pad 2; a test point would change the schematic and BOM after the feedback round."
+    },
+    {
+      "check": "PWR-THERMAL",
+      "ref": "Q2",
+      "reason": "Q2 tab (pad 5) is the switch node. Vias would put SW copper on the inner and bottom layers; the tab cools through the 1.2 cm2 SW pour on F.Cu and the source pins through 8 GND vias to the planes."
+    },
+    {
+      "check": "PWR-THERMAL",
+      "ref": "Q3",
+      "reason": "Q3 (reverse-polarity MOSFET) loses about 0.1 W (4 mOhm at 5.3 A); the VIN_RTN pour of 1.2 cm2 on F.Cu is enough. Its source pins have 18 GND vias."
+    }
+  ]
 }

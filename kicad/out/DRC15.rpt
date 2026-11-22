@@ -1,0 +1,355 @@
+** Drc report for ee463_dcdc.kicad_pcb **
+** Created on 2026-11-22T15:11:41 **
+** Report includes: Errors, Warnings **
+
+** Found 67 DRC violations **
+[lib_footprint_mismatch]: 'C_0805_2012Metric' ayak izi, 'Capacitor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor
+    Local override; warning
+    @(107.0000 mm, 59.0000 mm): Ayak İzi C15
+[lib_footprint_mismatch]: 'C_1210_3225Metric' ayak izi, 'Capacitor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor
+    Local override; warning
+    @(82.0000 mm, 67.6000 mm): Ayak İzi C6
+[lib_footprint_mismatch]: 'R_0805_2012Metric' ayak izi, 'Resistor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor
+    Local override; warning
+    @(96.0000 mm, 91.0875 mm): Ayak İzi R15
+[lib_footprint_mismatch]: 'SOT-23' ayak izi, 'Package_TO_SOT_SMD' kütüphanesindeki kopyasıyla eşleşmiyor
+    Local override; warning
+    @(128.6000 mm, 101.2000 mm): Ayak İzi U4
+[lib_footprint_mismatch]: 'R_0805_2012Metric' ayak izi, 'Resistor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor
+    Local override; warning
+    @(100.6000 mm, 72.6000 mm): Ayak İzi R6
+[lib_footprint_mismatch]: 'C_1210_3225Metric' ayak izi, 'Capacitor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor
+    Local override; warning
+    @(141.7000 mm, 64.8000 mm): Ayak İzi C10
+[lib_footprint_mismatch]: 'R_0805_2012Metric' ayak izi, 'Resistor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor
+    Local override; warning
+    @(73.4000 mm, 70.3000 mm): Ayak İzi R21
+[lib_footprint_mismatch]: 'C_0805_2012Metric' ayak izi, 'Capacitor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor
+    Local override; warning
+    @(90.5000 mm, 86.0500 mm): Ayak İzi C21
+[lib_footprint_mismatch]: 'R_0805_2012Metric' ayak izi, 'Resistor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor
+    Local override; warning
+    @(87.5000 mm, 86.0875 mm): Ayak İzi R11
+[lib_footprint_mismatch]: 'C_1210_3225Metric' ayak izi, 'Capacitor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor
+    Local override; warning
+    @(141.7000 mm, 71.4000 mm): Ayak İzi C12
+[lib_footprint_mismatch]: 'C_0805_2012Metric' ayak izi, 'Capacitor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor
+    Local override; warning
+    @(93.4000 mm, 72.6000 mm): Ayak İzi C27
+[lib_footprint_mismatch]: 'C_0805_2012Metric' ayak izi, 'Capacitor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor
+    Local override; warning
+    @(96.0000 mm, 72.5500 mm): Ayak İzi C26
+[lib_footprint_mismatch]: 'R_0805_2012Metric' ayak izi, 'Resistor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor
+    Local override; warning
+    @(109.0000 mm, 86.0875 mm): Ayak İzi R17
+[lib_footprint_mismatch]: 'R_2512_6332Metric' ayak izi, 'Resistor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor
+    Local override; warning
+    @(63.5000 mm, 54.3000 mm): Ayak İzi R2
+[lib_footprint_mismatch]: 'C_0805_2012Metric' ayak izi, 'Capacitor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor
+    Local override; warning
+    @(117.6000 mm, 96.3000 mm): Ayak İzi C31
+[lib_footprint_mismatch]: 'C_1210_3225Metric' ayak izi, 'Capacitor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor
+    Local override; warning
+    @(141.7000 mm, 61.5000 mm): Ayak İzi C9
+[lib_footprint_mismatch]: 'R_0805_2012Metric' ayak izi, 'Resistor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor
+    Local override; warning
+    @(96.5000 mm, 86.0875 mm): Ayak İzi R13
+[lib_footprint_mismatch]: 'R_0805_2012Metric' ayak izi, 'Resistor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor
+    Local override; warning
+    @(78.0000 mm, 48.3000 mm): Ayak İzi R1
+[lib_footprint_mismatch]: 'C_0805_2012Metric' ayak izi, 'Capacitor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor
+    Local override; warning
+    @(103.5000 mm, 72.6000 mm): Ayak İzi C22
+[lib_footprint_mismatch]: 'C_0805_2012Metric' ayak izi, 'Capacitor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor
+    Local override; warning
+    @(123.1400 mm, 91.5500 mm): Ayak İzi C29
+[lib_footprint_mismatch]: 'C_0805_2012Metric' ayak izi, 'Capacitor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor
+    Local override; warning
+    @(126.8000 mm, 91.7500 mm): Ayak İzi C28
+[lib_footprint_mismatch]: 'R_2512_6332Metric' ayak izi, 'Resistor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor
+    Local override; warning
+    @(136.5000 mm, 90.0000 mm): Ayak İzi RSH1
+[lib_footprint_mismatch]: 'R_0805_2012Metric' ayak izi, 'Resistor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor
+    Local override; warning
+    @(86.0000 mm, 91.0875 mm): Ayak İzi R12
+[lib_footprint_mismatch]: 'R_0805_2012Metric' ayak izi, 'Resistor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor
+    Local override; warning
+    @(88.5000 mm, 91.0875 mm): Ayak İzi R20
+[lib_footprint_mismatch]: 'C_1206_3216Metric' ayak izi, 'Capacitor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor
+    Local override; warning
+    @(127.1000 mm, 98.2000 mm): Ayak İzi C33
+[lib_footprint_mismatch]: 'R_0805_2012Metric' ayak izi, 'Resistor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor
+    Local override; warning
+    @(83.8000 mm, 72.6000 mm): Ayak İzi R22
+[lib_footprint_mismatch]: 'C_0805_2012Metric' ayak izi, 'Capacitor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor
+    Local override; warning
+    @(88.6000 mm, 72.6000 mm): Ayak İzi C16
+[lib_footprint_mismatch]: 'R_0805_2012Metric' ayak izi, 'Resistor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor
+    Local override; warning
+    @(103.5000 mm, 91.0875 mm): Ayak İzi R25
+[lib_footprint_mismatch]: 'SOT-23-5' ayak izi, 'Package_TO_SOT_SMD' kütüphanesindeki kopyasıyla eşleşmiyor
+    Local override; warning
+    @(122.0000 mm, 95.0000 mm): Ayak İzi U3
+[lib_footprint_mismatch]: 'C_1210_3225Metric' ayak izi, 'Capacitor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor
+    Local override; warning
+    @(141.7000 mm, 68.1000 mm): Ayak İzi C11
+[lib_footprint_mismatch]: 'C_0805_2012Metric' ayak izi, 'Capacitor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor
+    Local override; warning
+    @(91.0000 mm, 72.6000 mm): Ayak İzi C25
+[lib_footprint_mismatch]: 'SOT-23-5' ayak izi, 'Package_TO_SOT_SMD' kütüphanesindeki kopyasıyla eşleşmiyor
+    Local override; warning
+    @(130.6000 mm, 90.8000 mm): Ayak İzi U2
+[lib_footprint_mismatch]: 'R_0805_2012Metric' ayak izi, 'Resistor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor
+    Local override; warning
+    @(75.8000 mm, 70.3000 mm): Ayak İzi R9
+[lib_footprint_mismatch]: 'C_1210_3225Metric' ayak izi, 'Capacitor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor
+    Local override; warning
+    @(78.5000 mm, 67.6000 mm): Ayak İzi C7
+[lib_footprint_mismatch]: 'R_0805_2012Metric' ayak izi, 'Resistor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor
+    Local override; warning
+    @(106.1000 mm, 72.5875 mm): Ayak İzi R5
+[lib_footprint_mismatch]: 'CP_Radial_D12.5mm_P5.00mm' ayak izi, 'Capacitor_THT' kütüphanesindeki kopyasıyla eşleşmiyor
+    Local override; warning
+    @(65.5000 mm, 64.5000 mm): Ayak İzi C8
+[lib_footprint_mismatch]: 'C_0805_2012Metric' ayak izi, 'Capacitor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor
+    Local override; warning
+    @(99.5000 mm, 86.0500 mm): Ayak İzi C20
+[lib_footprint_mismatch]: 'C_1210_3225Metric' ayak izi, 'Capacitor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor
+    Local override; warning
+    @(98.5000 mm, 54.6000 mm): Ayak İzi C3
+[lib_footprint_mismatch]: 'L_Wuerth_HCI-1890' ayak izi, 'Inductor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor
+    Local override; warning
+    @(119.5000 mm, 68.2000 mm): Ayak İzi L1
+[lib_footprint_mismatch]: 'R_2512_6332Metric' ayak izi, 'Resistor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor
+    Local override; warning
+    @(67.6000 mm, 54.3000 mm): Ayak İzi R3
+[lib_footprint_mismatch]: 'R_0805_2012Metric' ayak izi, 'Resistor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor
+    Local override; warning
+    @(131.2000 mm, 98.2000 mm): Ayak İzi R29
+[lib_footprint_mismatch]: 'C_0805_2012Metric' ayak izi, 'Capacitor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor
+    Local override; warning
+    @(98.2000 mm, 72.6000 mm): Ayak İzi C24
+[lib_footprint_mismatch]: 'R_2512_6332Metric' ayak izi, 'Resistor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor
+    Local override; warning
+    @(65.5000 mm, 76.2000 mm): Ayak İzi R4
+[lib_footprint_mismatch]: 'C_1206_3216Metric' ayak izi, 'Capacitor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor
+    Local override; warning
+    @(87.6000 mm, 78.7000 mm): Ayak İzi C23
+[lib_footprint_mismatch]: 'Potentiometer_Bourns_3296W_Vertical' ayak izi, 'Potentiometer_THT' kütüphanesindeki kopyasıyla eşleşmiyor
+    Local override; warning
+    @(115.6000 mm, 105.3000 mm): Ayak İzi RV1
+[lib_footprint_mismatch]: 'C_0805_2012Metric' ayak izi, 'Capacitor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor
+    Local override; warning
+    @(122.5000 mm, 98.2000 mm): Ayak İzi C30
+[lib_footprint_mismatch]: 'C_1210_3225Metric' ayak izi, 'Capacitor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor
+    Local override; warning
+    @(85.5000 mm, 67.6000 mm): Ayak İzi C5
+[lib_footprint_mismatch]: 'C_0805_2012Metric' ayak izi, 'Capacitor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor
+    Local override; warning
+    @(72.5000 mm, 44.4000 mm): Ayak İzi C1
+[lib_footprint_mismatch]: 'R_0805_2012Metric' ayak izi, 'Resistor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor
+    Local override; warning
+    @(93.5000 mm, 86.0875 mm): Ayak İzi R14
+[lib_footprint_mismatch]: 'R_0805_2012Metric' ayak izi, 'Resistor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor
+    Local override; warning
+    @(117.9000 mm, 100.4000 mm): Ayak İzi R27
+[lib_footprint_mismatch]: 'C_0805_2012Metric' ayak izi, 'Capacitor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor
+    Local override; warning
+    @(93.5000 mm, 91.0500 mm): Ayak İzi C18
+[lib_footprint_mismatch]: 'R_0805_2012Metric' ayak izi, 'Resistor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor
+    Local override; warning
+    @(111.4000 mm, 100.4000 mm): Ayak İzi R28
+[lib_footprint_mismatch]: 'R_0805_2012Metric' ayak izi, 'Resistor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor
+    Local override; warning
+    @(106.0000 mm, 86.0875 mm): Ayak İzi R19
+[lib_footprint_mismatch]: 'C_0805_2012Metric' ayak izi, 'Capacitor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor
+    Local override; warning
+    @(85.0000 mm, 86.0500 mm): Ayak İzi C17
+[lib_footprint_mismatch]: 'R_1206_3216Metric' ayak izi, 'Resistor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor
+    Local override; warning
+    @(107.0000 mm, 63.3000 mm): Ayak İzi R7
+[lib_footprint_mismatch]: 'C_1210_3225Metric' ayak izi, 'Capacitor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor
+    Local override; warning
+    @(98.5000 mm, 57.9000 mm): Ayak İzi C2
+[lib_footprint_mismatch]: 'R_0805_2012Metric' ayak izi, 'Resistor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor
+    Local override; warning
+    @(90.2000 mm, 78.7000 mm): Ayak İzi R10
+[lib_footprint_mismatch]: 'R_0805_2012Metric' ayak izi, 'Resistor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor
+    Local override; warning
+    @(98.5000 mm, 91.0875 mm): Ayak İzi R16
+[lib_footprint_mismatch]: 'C_0805_2012Metric' ayak izi, 'Capacitor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor
+    Local override; warning
+    @(101.0000 mm, 91.0500 mm): Ayak İzi C19
+[lib_footprint_mismatch]: 'R_0805_2012Metric' ayak izi, 'Resistor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor
+    Local override; warning
+    @(112.4000 mm, 94.0500 mm): Ayak İzi R24
+[lib_footprint_mismatch]: 'C_1210_3225Metric' ayak izi, 'Capacitor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor
+    Local override; warning
+    @(89.0000 mm, 67.6000 mm): Ayak İzi C4
+[lib_footprint_mismatch]: 'R_0805_2012Metric' ayak izi, 'Resistor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor
+    Local override; warning
+    @(126.2000 mm, 95.9500 mm): Ayak İzi R23
+[lib_footprint_mismatch]: 'R_0805_2012Metric' ayak izi, 'Resistor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor
+    Local override; warning
+    @(127.0000 mm, 104.6000 mm): Ayak İzi R30
+[lib_footprint_mismatch]: 'R_0805_2012Metric' ayak izi, 'Resistor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor
+    Local override; warning
+    @(91.0000 mm, 91.0875 mm): Ayak İzi R18
+[lib_footprint_mismatch]: 'R_0805_2012Metric' ayak izi, 'Resistor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor
+    Local override; warning
+    @(125.4000 mm, 101.3000 mm): Ayak İzi R26
+[lib_footprint_mismatch]: 'R_2512_6332Metric' ayak izi, 'Resistor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor
+    Local override; warning
+    @(133.5000 mm, 68.2000 mm): Ayak İzi RS1
+[lib_footprint_mismatch]: 'R_0805_2012Metric' ayak izi, 'Resistor_SMD' kütüphanesindeki kopyasıyla eşleşmiyor
+    Local override; warning
+    @(103.0000 mm, 86.0875 mm): Ayak İzi R8
+
+** Found 34 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(134.0000 mm, 92.0000 mm): Bölge [VOUT] F.Cu üzerinde, öncelik 2
+    @(129.4625 mm, 89.8500 mm): 4 için [VOUT] U2 ayak F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(93.5000 mm, 92.0000 mm): 1 için [FB_TOP] C18 ayak F.Cu
+    @(89.0000 mm, 105.5000 mm): 1'in Delik İçi Kaplamalı Geçit pedi [FB_TOP] TP17
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(116.9875 mm, 100.4000 mm): 1 için [+5V_CC] R27 ayak F.Cu
+    @(125.4000 mm, 100.3875 mm): 1 için [+5V_CC] R26 ayak F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(116.9875 mm, 100.4000 mm): 1 için [+5V_CC] R27 ayak F.Cu
+    @(98.4000 mm, 106.8000 mm): 1'in Delik İçi Kaplamalı Geçit pedi [+5V_CC] TP21
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(123.1375 mm, 94.0500 mm): 5 için [+5V_CC] U3 ayak F.Cu
+    @(123.1400 mm, 92.5000 mm): 1 için [+5V_CC] C29 ayak F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(125.4000 mm, 100.3875 mm): 1 için [+5V_CC] R26 ayak F.Cu
+    @(127.6625 mm, 100.2500 mm): 1 için [+5V_CC] U4 ayak F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(127.7500 mm, 91.7500 mm): 1 için [+5V_CC] C28 ayak F.Cu
+    @(123.1400 mm, 92.5000 mm): 1 için [+5V_CC] C29 ayak F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(128.5750 mm, 98.2000 mm): 1 için [+5V_CC] C33 ayak F.Cu
+    @(130.2875 mm, 98.2000 mm): 2 için [+5V_CC] R29 ayak F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(128.5750 mm, 98.2000 mm): 1 için [+5V_CC] C33 ayak F.Cu
+    @(127.6625 mm, 100.2500 mm): 1 için [+5V_CC] U4 ayak F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(129.4625 mm, 91.7500 mm): 5 için [+5V_CC] U2 ayak F.Cu
+    @(127.7500 mm, 91.7500 mm): 1 için [+5V_CC] C28 ayak F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(130.2875 mm, 98.2000 mm): 2 için [+5V_CC] R29 ayak F.Cu
+    @(129.4625 mm, 91.7500 mm): 5 için [+5V_CC] U2 ayak F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(125.4000 mm, 102.2125 mm): 2 için [V5_FB] R26 ayak F.Cu
+    @(126.0875 mm, 104.6000 mm): 1 için [V5_FB] R30 ayak F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(127.6625 mm, 102.1500 mm): 2 için [V5_FB] U4 ayak F.Cu
+    @(125.4000 mm, 102.2125 mm): 2 için [V5_FB] R26 ayak F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(83.8000 mm, 73.5125 mm): 1 için [VOUT_C] R22 ayak F.Cu
+    @(94.0000 mm, 81.4750 mm): Yol [VOUT_C] F.Cu üzerinde, uzunluk 1.0250 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(131.7375 mm, 89.8500 mm): 3 için [VOUT_C] U2 ayak F.Cu
+    @(134.6000 mm, 59.0000 mm): Bölge [VOUT_C] F.Cu üzerinde, öncelik 2
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(82.0000 mm, 89.0000 mm): Yol [SS] F.Cu üzerinde, uzunluk 1.6617 mm
+    @(80.0000 mm, 105.5000 mm): 1'in Delik İçi Kaplamalı Geçit pedi [SS] TP16
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(93.5000 mm, 105.5000 mm): 1'in Delik İçi Kaplamalı Geçit pedi [ITH] TP14
+    @(98.8250 mm, 90.1750 mm): Yol [ITH] F.Cu üzerinde, uzunluk 0.3250 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(84.5000 mm, 105.5000 mm): 1'in Delik İçi Kaplamalı Geçit pedi [PGOOD] TP15
+    @(99.0000 mm, 83.0000 mm): Geçit [PGOOD] F.Cu - B.Cu üzerinde
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(98.4000 mm, 95.7000 mm): 1'in Delik İçi Kaplamalı Geçit pedi [VREF_CC] TP19
+    @(113.0600 mm, 105.3000 mm): 2'in Delik İçi Kaplamalı Geçit pedi [VREF_CC] RV1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(118.5500 mm, 96.3000 mm): 1 için [VREF_CC] C31 ayak F.Cu
+    @(113.0600 mm, 105.3000 mm): 2'in Delik İçi Kaplamalı Geçit pedi [VREF_CC] RV1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(120.8625 mm, 95.9500 mm): 3 için [VREF_CC] U3 ayak F.Cu
+    @(118.5500 mm, 96.3000 mm): 1 için [VREF_CC] C31 ayak F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(118.2500 mm, 94.0500 mm): 1 için [CC_OUT] D1 ayak F.Cu
+    @(98.4000 mm, 99.4000 mm): 1'in Delik İçi Kaplamalı Geçit pedi [CC_OUT] TP20
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(120.3500 mm, 100.5000 mm): 2 için [CC_OUT] D2 ayak F.Cu
+    @(121.5500 mm, 98.2000 mm): 2 için [CC_OUT] C30 ayak F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(120.8625 mm, 94.0500 mm): 1 için [CC_OUT] U3 ayak F.Cu
+    @(118.2500 mm, 94.0500 mm): 1 için [CC_OUT] D1 ayak F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(121.5500 mm, 98.2000 mm): 2 için [CC_OUT] C30 ayak F.Cu
+    @(120.8625 mm, 94.0500 mm): 1 için [CC_OUT] U3 ayak F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(113.3125 mm, 94.0500 mm): 2 için [CC_D] R24 ayak F.Cu
+    @(114.9500 mm, 94.0500 mm): 2 için [CC_D] D1 ayak F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(103.5000 mm, 92.0000 mm): 2 için [CC_LINK] R25 ayak F.Cu
+    @(111.4875 mm, 94.0500 mm): 1 için [CC_LINK] R24 ayak F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(123.1375 mm, 95.9500 mm): 4 için [CC_INV] U3 ayak F.Cu
+    @(123.4500 mm, 98.2000 mm): 1 için [CC_INV] C30 ayak F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(123.6500 mm, 100.5000 mm): 1 için [CC_INV] D2 ayak F.Cu
+    @(123.4500 mm, 98.2000 mm): 1 için [CC_INV] C30 ayak F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(125.2875 mm, 95.9500 mm): 2 için [CC_INV] R23 ayak F.Cu
+    @(123.1375 mm, 95.9500 mm): 4 için [CC_INV] U3 ayak F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(98.4000 mm, 103.1000 mm): 1'in Delik İçi Kaplamalı Geçit pedi [ISENSE] TP18
+    @(127.1125 mm, 95.9500 mm): 1 için [ISENSE] R23 ayak F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(127.1125 mm, 95.9500 mm): 1 için [ISENSE] R23 ayak F.Cu
+    @(131.7375 mm, 91.7500 mm): 1 için [ISENSE] U2 ayak F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(115.6000 mm, 105.3000 mm): 1'in Delik İçi Kaplamalı Geçit pedi [TRIM_HI] RV1
+    @(118.8125 mm, 100.4000 mm): 2 için [TRIM_HI] R27 ayak F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(110.4875 mm, 100.4000 mm): 1 için [TRIM_LO] R28 ayak F.Cu
+    @(110.5200 mm, 105.3000 mm): 3'in Delik İçi Kaplamalı Geçit pedi [TRIM_LO] RV1
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
